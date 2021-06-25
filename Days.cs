@@ -13,7 +13,18 @@ using System.Media;
 namespace LearningGame1
 {
     public partial class Days : Form
-    {
+    {   
+        private static string pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
+        private string[] value = File.ReadAllLines(pointSave);
+        
+        private static string pointSaveM = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
+        private string[] valueM = File.ReadAllLines(pointSaveM);
+        
+        private static string pointSaveScore = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
+        private string[] valueScore = File.ReadAllLines(pointSaveScore);
+        
+        private int a = 0;
+        private int b = 0;
 
         private System.Media.SoundPlayer hint1 = new System.Media.SoundPlayer();
         private System.Media.SoundPlayer hint2 = new System.Media.SoundPlayer();
@@ -42,15 +53,9 @@ namespace LearningGame1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Checking the current score in the file and calling the level that matches that score.
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
-
-            //reading the value in the file to the array
-            string[] value = File.ReadAllLines(pointSave);
             lblScore.Text = value[0];
             //converting the array value to an integer
-
-            int a = int.Parse(value[0]);
+            a = int.Parse(value[0]);
 
             switch (a)
             {
@@ -140,13 +145,10 @@ namespace LearningGame1
         }
         private void LevelTwo()
         {
-            //Setting the value of the Mistakes label to 0 for the next question
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-            String[] value = File.ReadAllLines(pointSave);
-            int a = 0;
+            a = 0;
             String res2 = a.ToString();
-            value[0] = res2;
-            File.WriteAllLines(pointSave, value);
+            valueM[0] = res2;
+            File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res2;
 
             //adjusting the size and position of the group boxes
@@ -193,14 +195,10 @@ namespace LearningGame1
         }
         private void LevelThree()
         {
-
-            //Setting the value of the Mistakes label to 0 for the next question
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-            String[] value = File.ReadAllLines(pointSave);
-            int a = 0;
+            a = 0;
             String res3 = a.ToString();
-            value[0] = res3;
-            File.WriteAllLines(pointSave, value);
+            valueM[0] = res3;
+            File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res3;
 
             //adjusting the size and position of the group boxes
@@ -247,14 +245,10 @@ namespace LearningGame1
         }
         private void LevelFour()
         {
-
-            //Setting the value of the Mistakes label to 0 for the next question
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-            String[] value = File.ReadAllLines(pointSave);
-            int a = 0;
+            a = 0;
             String res4 = a.ToString();
-            value[0] = res4;
-            File.WriteAllLines(pointSave, value);
+            valueM[0] = res4;
+            File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res4;
 
             //adjusting the size and position of the group boxes
@@ -303,14 +297,10 @@ namespace LearningGame1
         }
         private void LevelFive()
         {
-
-            //Setting the value of the Mistakes label to 0 for the next question
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-            String[] value = File.ReadAllLines(pointSave);
-            int a = 0;
+            a = 0;
             String res5 = a.ToString();
-            value[0] = res5;
-            File.WriteAllLines(pointSave, value);
+            valueM[0] = res5;
+            File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res5;
 
             //adjusting the size and position of the group boxes, textboxes
@@ -363,14 +353,10 @@ namespace LearningGame1
         }
         private void LevelSix()
         {
-
-            //Setting the value of the Mistakes label to 0 for the next question
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-            String[] value = File.ReadAllLines(pointSave);
-            int a = 0;
+            a = 0;
             String res6 = a.ToString();
-            value[0] = res6;
-            File.WriteAllLines(pointSave, value);
+            valueM[0] = res6;
+            File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res6;
 
             //adjusting the size and position of the group boxes, textboxes
@@ -426,13 +412,10 @@ namespace LearningGame1
         }
         private void LevelSeven()
         {
-            //Setting the value of the Mistakes label to 0 for the next question
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-            String[] value = File.ReadAllLines(pointSave);
-            int a = 0;
+            a = 0;
             String res7 = a.ToString();
-            value[0] = res7;
-            File.WriteAllLines(pointSave, value);
+            valueM[0] = res7;
+            File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res7;
 
             //adjusting the size and position of the group boxes, textboxes
@@ -898,15 +881,8 @@ namespace LearningGame1
         //------------------------------------------------------------------------------------------------------------PointSystemMatch() checks the current point in the text file and increments it by 1
         private void PointSystemMatches()
         {
-
-            //setting the file path to the text file
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
-
-            //reading the value in the file to the array
-            String[] value = File.ReadAllLines(pointSave);
-
             //converting the array value to an integer
-            int a = int.Parse(value[0]);
+            a = int.Parse(value[0]);
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
@@ -989,14 +965,8 @@ namespace LearningGame1
         //------------------------------------------------------------------------------------------------------------PointSystemDoesNotMatch() checks the current  lose point in the text file and increments it by 1
         private void PointSystemDoesNotMatch()
         {
-            //setting the file path to the text file
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-
-            //reading the value in the file to the array
-            String[] valueM = File.ReadAllLines(pointSave);
-
             //converting the array value to an integer
-            int a = int.Parse(valueM[0]);
+            a = int.Parse(valueM[0]);
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
@@ -1006,7 +976,7 @@ namespace LearningGame1
                     String val = a.ToString();
                     valueM[0] = val;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueM);
+                    File.WriteAllLines(pointSaveM, valueM);
                     t3.Text = "";
                     t4.Text = "";
                     t5.Text = "";
@@ -1019,7 +989,7 @@ namespace LearningGame1
                     String val1 = a.ToString();
                     valueM[0] = val1;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueM);
+                    File.WriteAllLines(pointSaveM, valueM);
                     t3.Text = "";
                     t4.Text = "";
                     t5.Text = "";
@@ -1032,7 +1002,7 @@ namespace LearningGame1
                     String val2 = a.ToString();
                     valueM[0] = val2;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueM);
+                    File.WriteAllLines(pointSaveM, valueM);
                     t3.Text = "";
                     t4.Text = "";
                     t5.Text = "";
@@ -1050,15 +1020,9 @@ namespace LearningGame1
         //------------------------------------------------------------------------------------------------------------ResetToNewQuestion() check the current score and calls the next level according to the current score value
         private void resetToNewQuestion()
         {
-
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
-
-            //reading the value in the file to the array
-            string[] value = File.ReadAllLines(pointSave);
-
             //converting the array value to an integer
-
-            int a = int.Parse(value[0]);
+            a = int.Parse(value[0]);
+            
             //The switch when called will check the value in the txt file and call the level after that value e.g(a =1 that means call level 2).
             switch (a)
             {
@@ -1159,12 +1123,7 @@ namespace LearningGame1
 
         private void GameOver()
         {
-            //setting the file path to the text file mistakes
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
-
-            //RESET LBLSCORE TO 0 AND RERUN THE PROGRAM IN A LOOP
-            String[] value = File.ReadAllLines(pointSave);
-            int a = 0;
+            a = 0;
             String val = a.ToString();
             value[0] = val;
 
@@ -1174,14 +1133,9 @@ namespace LearningGame1
 
             MessageBox.Show("                  ***YOU HAVE FAILED THIS LEVEL***\n   ***THE LEVEL WILL RESET WHEN YOU CLICK ON OK***");
             //---------------------------------------------------------------------------------------------------------------------------------------
-            //setting the file path to the text file  saved score
-            var pointSaveScore = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
-
-            //reading the value in the file to the array
-            string[] valueScore = File.ReadAllLines(pointSaveScore);
 
             //converting the array value to an integer
-            int b = int.Parse(valueScore[0]);
+            b = int.Parse(valueScore[0]);
 
             switch (b)
             {
@@ -1191,7 +1145,7 @@ namespace LearningGame1
                     String val1 = b.ToString();
                     valueScore[0] = val1;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val1;
                     resetToNewQuestion();
 
@@ -1201,7 +1155,7 @@ namespace LearningGame1
                     String val2 = b.ToString();
                     valueScore[0] = val2;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val2;
                     resetToNewQuestion();
 
@@ -1211,7 +1165,7 @@ namespace LearningGame1
                     String val3 = b.ToString();
                     valueScore[0] = val3;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val3;
                     resetToNewQuestion();
 
@@ -1221,7 +1175,7 @@ namespace LearningGame1
                     String val4 = b.ToString();
                     valueScore[0] = val4;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val4;
                     resetToNewQuestion();
 
@@ -1231,7 +1185,7 @@ namespace LearningGame1
                     String val5 = b.ToString();
                     valueScore[0] = val5;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val5;
                     resetToNewQuestion();
 
@@ -1241,7 +1195,7 @@ namespace LearningGame1
                     String val6 = b.ToString();
                     valueScore[0] = val6;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val6;
                     resetToNewQuestion();
 
@@ -1251,7 +1205,7 @@ namespace LearningGame1
                     String val7 = b.ToString();
                     valueScore[0] = val7;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val7;
                     resetToNewQuestion();
 
@@ -1261,7 +1215,7 @@ namespace LearningGame1
                     String val8 = b.ToString();
                     valueScore[0] = val8;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val8;
                     resetToNewQuestion();
 
@@ -1272,7 +1226,7 @@ namespace LearningGame1
                     String val9 = b.ToString();
                     valueScore[0] = val9;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val9;
                     resetToNewQuestion();
 
@@ -1282,7 +1236,7 @@ namespace LearningGame1
                     String val10 = b.ToString();
                     valueScore[0] = val10;
                     //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSave, valueScore);
+                    File.WriteAllLines(pointSaveScore, valueScore);
                     lblMistakes.Text = val10;
                     resetToNewQuestion();
 
@@ -1310,15 +1264,9 @@ namespace LearningGame1
 
         private void submitBtn_Click_1(object sender, EventArgs e)
         {
-            //Calling MatchUp()'s onclick 
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
-
-            //reading the value in the file to the array
-            string[] value = File.ReadAllLines(pointSave);
-
             //converting the array value to an integer
-
-            int a = int.Parse(value[0]);
+            a = int.Parse(value[0]);
+            
             switch (a)
             {
 
@@ -1355,15 +1303,9 @@ namespace LearningGame1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //Calling MSounds according to each level onclick 
-            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
-
-            //reading the value in the file to the array
-            string[] value = File.ReadAllLines(pointSave);
-
             //converting the array value to an integer
-
-            int a = int.Parse(value[0]);
+            a = int.Parse(value[0]);
+            
             switch (a)
             {
 
