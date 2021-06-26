@@ -54,7 +54,7 @@ namespace LearningGame1
         private void Form1_Load(object sender, EventArgs e)
         {
             lblScore.Text = value[0];
-            //converting the array value to an integer
+            //converting the array value to an integers
             int a = int.Parse(value[0]);
 
             switch (a)
