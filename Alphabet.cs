@@ -14,6 +14,7 @@ namespace LearningGame1
 {
     public partial class Alphabet : Form
     {
+<<<<<<< HEAD
         private static string pointSave = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\SavedScoreAlphabet.txt";
         private string[] value = File.ReadAllLines(pointSave);
         
@@ -25,6 +26,8 @@ namespace LearningGame1
 
         private int a = 0;
         
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
         private System.Media.SoundPlayer hint1 = new System.Media.SoundPlayer();
         private System.Media.SoundPlayer hint2 = new System.Media.SoundPlayer();
@@ -57,6 +60,7 @@ namespace LearningGame1
         {
             InitializeComponent();
 
+<<<<<<< HEAD
             hint1.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundAlphabet\arm.wav";
             hint2.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundAlphabet\bus.wav";
             hint3.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundAlphabet\coke.wav";
@@ -83,19 +87,58 @@ namespace LearningGame1
             hint24.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundAlphabet\xiolofoon.wav";
             hint25.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundAlphabet\ys.wav";
             hint26.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundAlphabet\zoeloe.wav";
+=======
+            hint1.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\arm.wav";
+            hint2.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\bus.wav";
+            hint3.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\coke.wav";
+            hint4.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\dam.wav";
+            hint5.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\eier.wav";
+            hint6.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\fiets.wav";
+            hint7.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\gans.wav";
+            hint8.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\hond.wav";
+            hint9.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\ink.wav";
+            hint10.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\jas.wav";
+            hint11.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\kat.wav";
+            hint12.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\leeu.wav";
+            hint13.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\melk.wav";
+            hint14.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\nes.wav";
+            hint15.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\olie.wav";
+            hint16.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\pen.wav";
+            hint17.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\queen.wav";
+            hint18.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\reen.wav";
+            hint19.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\ster.wav";
+            hint20.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\tuin.wav";
+            hint21.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\uil.wav";
+            hint22.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\vark.wav";
+            hint23.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\wurm.wav";
+            hint24.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\xiolofoon.wav";
+            hint25.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\ys.wav";
+            hint26.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundAlphabet\zoeloe.wav";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
         }
 
         private void Alphabet_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             lblScore.Text = value[0];
             //converting the array value to an integer
             a = int.Parse(value[0]);
             
+=======
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScoreAlphabet.txt";
+            //reading the value in the file to the array
+            string[] value = File.ReadAllLines(pointSave);
+            lblScore.Text = value[0];
+            //converting the array value to an integer
+
+            int a = int.Parse(value[0]);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             switch (a)
             {
 
                 case 0:
+<<<<<<< HEAD
                 case 1:
                 case 2:
                 case 3:
@@ -121,6 +164,84 @@ namespace LearningGame1
                 case 24:
                 case 25:
                     resetToNewQuestion();
+=======
+                    LevelOne();
+                    break;
+                case 1:
+                    LevelTwo();
+                    break;
+                case 2:
+                    LevelThree();
+                    break;
+                case 3:
+                    LevelFour();
+                    break;
+                case 4:
+                    LevelFive();
+                    break;
+                case 5:
+                    LevelSix();
+                    break;
+                case 6:
+                    LevelSeven();
+                    break;
+                case 7:
+                    LevelEight();
+                    break;
+                case 8:
+                    LevelNine();
+                    break;
+                case 9:
+                    LevelTen();
+                    break;
+                case 10:
+                    LevelEleven();
+                    break;
+                case 11:
+                    LevelTwelve();
+                    break;
+                case 12:
+                    LevelThirteen();
+                    break;
+                case 13:
+                    LevelFourteen();
+                    break;
+                case 14:
+                    LevelFifteen();
+                    break;
+                case 15:
+                    LevelSixteen();
+                    break;
+                case 16:
+                    LevelSeventeen();
+                    break;
+                case 17:
+                    LevelEighteen();
+                    break;
+                case 18:
+                    LevelNineteen();
+                    break;
+                case 19:
+                    LevelTwenty();
+                    break;
+                case 20:
+                    LevelTwentyone();
+                    break;
+                case 21:
+                    LevelTwentytwo();
+                    break;
+                case 22:
+                    LevelTwentythree();
+                    break;
+                case 23:
+                    LevelTwentyfour();
+                    break;
+                case 24:
+                    LevelTwentyfive();
+                    break;
+                case 25:
+                    LevelTwentysix();
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     break;
                 default:
                     MessageBox.Show("It is Done");
@@ -131,11 +252,14 @@ namespace LearningGame1
         //--------------------------------------------------------------Level methods where the position of the textboxes and text values are set
         private void LevelOne()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -170,16 +294,23 @@ namespace LearningGame1
            
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\a.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\a.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwo()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -214,16 +345,32 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\b.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\b.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelThree()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -264,7 +411,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\c.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\c.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -273,11 +424,14 @@ namespace LearningGame1
         }
         private void LevelFour()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -312,16 +466,32 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\D.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\D.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFive()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -362,7 +532,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\e.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\e.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -371,11 +545,23 @@ namespace LearningGame1
         }
         private void LevelSix()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -417,7 +603,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\f.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\f.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -426,11 +616,23 @@ namespace LearningGame1
         }
         private void LevelSeven()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -471,7 +673,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\g.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\g.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -480,11 +686,23 @@ namespace LearningGame1
         }
         private void LevelEight()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -525,7 +743,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\h.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\h.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -534,11 +756,14 @@ namespace LearningGame1
         }
         private void LevelNine()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -573,16 +798,23 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\i.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\i.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -617,16 +849,23 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\j.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\j.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelEleven()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -661,16 +900,32 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\k.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\k.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwelve()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -711,7 +966,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\l.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\l.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -720,11 +979,24 @@ namespace LearningGame1
         }
         private void LevelThirteen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -764,7 +1036,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\M.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\M.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -773,11 +1049,14 @@ namespace LearningGame1
         }
         private void LevelFourteen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -812,16 +1091,32 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\n.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\n.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFifteen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -862,7 +1157,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\o.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\o.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -871,11 +1170,14 @@ namespace LearningGame1
         }
         private void LevelSixteen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -910,16 +1212,32 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\p.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\p.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelSeventeen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -961,7 +1279,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\q.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\q.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -970,11 +1292,23 @@ namespace LearningGame1
         }
         private void LevelEighteen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -1015,7 +1349,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\r.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\r.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1024,11 +1362,23 @@ namespace LearningGame1
         }
         private void LevelNineteen()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -1069,7 +1419,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\S.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\S.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1078,11 +1432,23 @@ namespace LearningGame1
         }
         private void LevelTwenty()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -1123,7 +1489,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\t.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\t.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1132,11 +1502,14 @@ namespace LearningGame1
         }
         private void LevelTwentyone()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -1171,16 +1544,32 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\u.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\u.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwentytwo()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -1221,7 +1610,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\V.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\V.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1230,11 +1623,23 @@ namespace LearningGame1
         }
         private void LevelTwentythree()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -1275,7 +1680,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\W.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\W.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1284,11 +1693,23 @@ namespace LearningGame1
         }
         private void LevelTwentyfour()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes, textboxes
             hintGroupBox.Size = new Size(617, 131);
@@ -1337,7 +1758,11 @@ namespace LearningGame1
             letter8.ForeColor = Color.White;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\x.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\x.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1346,11 +1771,14 @@ namespace LearningGame1
         }
         private void LevelTwentyfive()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -1385,16 +1813,32 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\y.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\y.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwentysix()
         {
+<<<<<<< HEAD
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res;
+=======
+            ;
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String res2 = a.ToString();
+            value[0] = res2;
+            File.WriteAllLines(pointSave, value);
+            lblMistakes.Text = res2;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
@@ -1437,7 +1881,11 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
+<<<<<<< HEAD
             pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\images\z.jpg";
+=======
+            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\z.jpg";
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1457,8 +1905,13 @@ namespace LearningGame1
                 PointSystemMatches();
             }
 
+<<<<<<< HEAD
            
             else
+=======
+            //else if match is not found( letter2 != t3 but letter4 != t4)
+            else if (letter2.Text != t3.Text.ToUpper())
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             {
                 MessageBox.Show("***INCORRECT ANSWER TRY AGAIN***");
                 PointSystemDoesNotMatch();
@@ -2174,14 +2627,26 @@ namespace LearningGame1
 
         private void PointSystemMatches()
         {
+<<<<<<< HEAD
             //converting the array value to an integer
             a = int.Parse(value[0]);
+=======
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScoreAlphabet.txt";
+
+            //reading the value in the file to the array
+            String[] value = File.ReadAllLines(pointSave);
+
+            //converting the array value to an integer
+            int a = int.Parse(value[0]);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
             {
 
                 case 0:
+<<<<<<< HEAD
                 case 1:
                 case 2:
                 case 3:
@@ -2213,6 +2678,265 @@ namespace LearningGame1
                     //writing the current score value to the SavedScore text file
                     File.WriteAllLines(pointSave, value);
                     lblScore.Text = val;
+=======
+                    a += 1;
+                    String val = a.ToString();
+                    value[0] = val;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val;
+                    resetToNewQuestion();
+
+                    break;
+                case 1:
+                    a += 1;
+                    String val1 = a.ToString();
+                    value[0] = val1;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val1;
+                   
+                    resetToNewQuestion();
+
+                    break;
+                case 2:
+                    a += 1;
+                    String val2 = a.ToString();
+                    value[0] = val2;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val2;
+                    resetToNewQuestion();
+
+                    break;
+                case 3:
+                    a += 1;
+                    String val3 = a.ToString();
+                    value[0] = val3;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val3;
+                    resetToNewQuestion();
+
+                    break;
+                case 4:
+                    a += 1;
+                    String val4 = a.ToString();
+                    value[0] = val4;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val4;
+                    resetToNewQuestion();
+
+                    break;
+                case 5:
+                    a += 1;
+                    String val5 = a.ToString();
+                    value[0] = val5;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val5;
+                    resetToNewQuestion();
+
+                    break;
+                case 6:
+                    a += 1;
+                    String val6 = a.ToString();
+                    value[0] = val6;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val6;
+                    resetToNewQuestion();
+
+                    break;
+                case 7:
+                    a += 1;
+                    String val7 = a.ToString();
+                    value[0] = val7;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val7;
+                    resetToNewQuestion();
+
+                    break;
+                case 8:
+                    a += 1;
+                    String val8 = a.ToString();
+                    value[0] = val8;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val8;
+                    resetToNewQuestion();
+
+                    break;
+                case 9:
+                    a += 1;
+                    String val9 = a.ToString();
+                    value[0] = val9;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val9;
+                    resetToNewQuestion();
+
+                    break;
+                case 10:
+                    a += 1;
+                    String val10 = a.ToString();
+                    value[0] = val10;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val10;
+                    resetToNewQuestion();
+
+                    break;
+                case 11:
+                    a += 1;
+                    String val11 = a.ToString();
+                    value[0] = val11;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val11;
+                    resetToNewQuestion();
+
+                    break;
+                case 12:
+                    a += 1;
+                    String val12 = a.ToString();
+                    value[0] = val12;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val12;
+                    resetToNewQuestion();
+
+                    break;
+                case 13:
+                    a += 1;
+                    String val13 = a.ToString();
+                    value[0] = val13;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val13;
+                    resetToNewQuestion();
+
+                    break;
+                case 14:
+                    a += 1;
+                    String val14 = a.ToString();
+                    value[0] = val14;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val14;
+                    resetToNewQuestion();
+
+                    break;
+                case 15:
+                    a += 1;
+                    String val15 = a.ToString();
+                    value[0] = val15;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val15;
+                    resetToNewQuestion();
+
+                    break;
+                case 16:
+                    a += 1;
+                    String val16 = a.ToString();
+                    value[0] = val16;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val16;
+                    resetToNewQuestion();
+
+                    break;
+                case 17:
+                    a += 1;
+                    String val17 = a.ToString();
+                    value[0] = val17;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val17;
+                    resetToNewQuestion();
+
+                    break;
+                case 18:
+                    a += 1;
+                    String val18 = a.ToString();
+                    value[0] = val18;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val18;
+                    resetToNewQuestion();
+
+                    break;
+                case 19:
+                    a += 1;
+                    String val19 = a.ToString();
+                    value[0] = val19;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val19;
+                    resetToNewQuestion();
+
+                    break;
+                case 20:
+                    a += 1;
+                    String val20 = a.ToString();
+                    value[0] = val20;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val20;
+                    resetToNewQuestion();
+
+                    break;
+                case 21:
+                    a += 1;
+                    String val21 = a.ToString();
+                    value[0] = val21;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val21;
+                    resetToNewQuestion();
+
+                    break;
+                case 22:
+                    a += 1;
+                    String val22 = a.ToString();
+                    value[0] = val22;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val22;
+                    resetToNewQuestion();
+
+                    break;
+                case 23:
+                    a += 1;
+                    String val23 = a.ToString();
+                    value[0] = val23;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val23;
+                    resetToNewQuestion();
+
+                    break;
+                case 24:
+                    a += 1;
+                    String val24 = a.ToString();
+                    value[0] = val24;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val24;
+                    resetToNewQuestion();
+
+                    break;
+                case 25:
+                    a += 1;
+                    String val25 = a.ToString();
+                    value[0] = val25;
+                    //writing the current score value to the SavedScore text file
+                    File.WriteAllLines(pointSave, value);
+                    lblScore.Text = val25;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     resetToNewQuestion();
 
                     break;
@@ -2225,19 +2949,48 @@ namespace LearningGame1
 
         private void PointSystemDoesNotMatch()
         {
+<<<<<<< HEAD
             //converting the array value to an integer
             a = int.Parse(valueM[0]);
+=======
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+
+            //reading the value in the file to the array
+            String[] valueM = File.ReadAllLines(pointSave);
+
+            //converting the array value to an integer
+            int a = int.Parse(valueM[0]);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
             {
                 case 0:
+<<<<<<< HEAD
+=======
+                    a += 1;
+                    String val = a.ToString();
+                    valueM[0] = val;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueM);
+                    t3.Text = "";
+                    t4.Text = "";
+                    t5.Text = "";
+                    t6.Text = "";
+                    lblMistakes.Text = val;
+                    break;
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                 case 1:
                     a += 1;
                     String val1 = a.ToString();
                     valueM[0] = val1;
                     //writing the current score value to the Mistakes text file
+<<<<<<< HEAD
                     File.WriteAllLines(pointSaveM, valueM);
+=======
+                    File.WriteAllLines(pointSave, valueM);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     t4.Text = "";
                     t5.Text = "";
@@ -2250,7 +3003,11 @@ namespace LearningGame1
                     String val2 = a.ToString();
                     valueM[0] = val2;
                     //writing the current score value to the Mistakes text file
+<<<<<<< HEAD
                     File.WriteAllLines(pointSaveM, valueM);
+=======
+                    File.WriteAllLines(pointSave, valueM);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     t4.Text = "";
                     t5.Text = "";
@@ -2269,33 +3026,53 @@ namespace LearningGame1
 
         private void resetToNewQuestion()
         {
+<<<<<<< HEAD
             //converting the array value to an integer
             a = int.Parse(value[0]);
+=======
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScoreAlphabet.txt";
+
+            //reading the value in the file to the array
+            string[] value = File.ReadAllLines(pointSave);
+
+            //converting the array value to an integer
+            int a = int.Parse(value[0]);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             //The switch when called will check the value in the txt file and call the level after that value e.g(a =1 that means call level 2).
             switch (a)
             {
 
                 case 0:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelOne();
 
                     break;
                 case 1:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelTwo();
 
                     break;
                 case 2:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2304,17 +3081,23 @@ namespace LearningGame1
 
                     break;
                 case 3:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelFour();
 
                     break;
                 case 4:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2323,9 +3106,12 @@ namespace LearningGame1
 
                     break;
                 case 5:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     letter5.Visible = true;
@@ -2335,9 +3121,12 @@ namespace LearningGame1
 
                     break;
                 case 6:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2346,9 +3135,12 @@ namespace LearningGame1
 
                     break;
                 case 7:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2357,33 +3149,45 @@ namespace LearningGame1
 
                     break;
                 case 8:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelNine();
 
                     break;
                 case 9:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelTen();
 
                     break;
                 case 10:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelEleven();
 
                     break;
                 case 11:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2392,9 +3196,12 @@ namespace LearningGame1
 
                     break;
                 case 12:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2403,17 +3210,23 @@ namespace LearningGame1
 
                     break;
                 case 13:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelFourteen();
 
                     break;
                 case 14:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2422,17 +3235,23 @@ namespace LearningGame1
 
                     break;
                 case 15:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelSixteen();
 
                     break;
                 case 16:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     letter5.Visible = true;
@@ -2442,9 +3261,12 @@ namespace LearningGame1
 
                     break;
                 case 17:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2452,9 +3274,12 @@ namespace LearningGame1
                     LevelEighteen();
                     break;
                 case 18:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2462,9 +3287,12 @@ namespace LearningGame1
                     LevelNineteen();
                     break;
                 case 19:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2472,17 +3300,23 @@ namespace LearningGame1
                     LevelTwenty();
                     break;
                 case 20:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelTwentyone();
 
                     break;
                 case 21:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2490,9 +3324,12 @@ namespace LearningGame1
                     LevelTwentytwo();
                     break;
                 case 22:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     letter4.Visible = true;
                     t3.Text = "";
@@ -2500,9 +3337,12 @@ namespace LearningGame1
                     LevelTwentythree();
                     break;
                 case 23:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t4.Visible = true;
                     t5.Visible = true;
                     t6.Visible = true;
@@ -2516,17 +3356,23 @@ namespace LearningGame1
                     LevelTwentyfour();
                     break;
                 case 24:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     t3.Text = "";
                     LevelTwentyfive();
 
                     break;
                 case 25:
+<<<<<<< HEAD
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
                     letter3.Visible = true;
                     letter4.Visible = true;
                     letter5.Visible = true;
@@ -2567,6 +3413,7 @@ namespace LearningGame1
 
         private void GameOver()
         {
+<<<<<<< HEAD
             valueMistake[0] = "0";
             File.WriteAllLines(pointMistakes, valueMistake);
             MessageBox.Show("                    ***YOU HAVE FAILED THIS LEVEL***\n      ***THE LEVEL WILL RESET WHEN YOU CLICK ON OK***");
@@ -2578,6 +3425,322 @@ namespace LearningGame1
             //converting the array value to an integer
             a = int.Parse(value[0]);
             
+=======
+            //setting the file path to the text file mistakes
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\MistakesAlphabet.txt";
+
+            //RESET LBLSCORE TO 0 AND RERUN THE PROGRAM IN A LOOP
+            String[] value = File.ReadAllLines(pointSave);
+            int a = 0;
+            String val = a.ToString();
+            value[0] = val;
+
+            //writing the current score value to the SavedScore text file
+            File.WriteAllLines(pointSave, value);
+            lblScore.Text = val;
+
+            MessageBox.Show("                  ***YOU HAVE FAILED THIS LEVEL***\n   ***THE LEVEL WILL RESET WHEN YOU CLICK ON OK***");
+            //---------------------------------------------------------------------------------------------------------------------------------------
+            //setting the file path to the text file  saved score
+            var pointSaveScore = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScoreAlphabet.txt";
+
+            //reading the value in the file to the array
+            string[] valueScore = File.ReadAllLines(pointSaveScore);
+
+            //converting the array value to an integer
+            int b = int.Parse(valueScore[0]);
+
+            switch (b)
+            {
+
+                case 0:
+                    b = 0;
+                    String val0 = b.ToString();
+                    valueScore[0] = val0;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val0;
+                    resetToNewQuestion();
+
+                    break;
+                case 1:
+                    b = 0;
+                    String val1 = b.ToString();
+                    valueScore[0] = val1;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val1;
+                    resetToNewQuestion();
+
+                    break;
+                case 2:
+                    b = 0;
+                    String val2 = b.ToString();
+                    valueScore[0] = val2;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val2;
+                    resetToNewQuestion();
+
+                    break;
+                case 3:
+                    b = 0;
+                    String val3 = b.ToString();
+                    valueScore[0] = val3;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val3;
+                    resetToNewQuestion();
+
+                    break;
+                case 4:
+                    b = 0;
+                    String val4 = b.ToString();
+                    valueScore[0] = val4;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val4;
+                    resetToNewQuestion();
+
+                    break;
+                case 5:
+                    b = 0;
+                    String val5 = b.ToString();
+                    valueScore[0] = val5;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val5;
+                    resetToNewQuestion();
+
+                    break;
+                case 6:
+                    b = 0;
+                    String val6 = b.ToString();
+                    valueScore[0] = val6;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val6;
+                    resetToNewQuestion();
+
+                    break;
+                case 7:
+                    b = 0;
+                    String val7 = b.ToString();
+                    valueScore[0] = val7;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val7;
+                    resetToNewQuestion();
+
+                    break;
+
+                case 8:
+                    b = 0;
+                    String val8 = b.ToString();
+                    valueScore[0] = val8;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val8;
+                    resetToNewQuestion();
+
+                    break;
+                case 9:
+                    b = 0;
+                    String val9 = b.ToString();
+                    valueScore[0] = val9;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val9;
+                    resetToNewQuestion();
+
+                    break;
+                case 10:
+                    b = 0;
+                    String val10 = b.ToString();
+                    valueScore[0] = val10;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val10;
+                    resetToNewQuestion();
+
+                    break;
+                case 11:
+                    b = 0;
+                    String val11 = b.ToString();
+                    valueScore[0] = val11;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val11;
+                    resetToNewQuestion();
+
+                    break;
+                case 12:
+                    b = 0;
+                    String val12 = b.ToString();
+                    valueScore[0] = val12;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val12;
+                    resetToNewQuestion();
+
+                    break;
+                case 13:
+                    b = 0;
+                    String val13 = b.ToString();
+                    valueScore[0] = val13;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val13;
+                    resetToNewQuestion();
+
+                    break;
+                case 14:
+                    b = 0;
+                    String val14 = b.ToString();
+                    valueScore[0] = val14;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val14;
+                    resetToNewQuestion();
+
+                    break;
+                case 15:
+                    b = 0;
+                    String val15 = b.ToString();
+                    valueScore[0] = val15;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val15;
+                    resetToNewQuestion();
+
+                    break;
+                case 16:
+                    b = 0;
+                    String val16 = b.ToString();
+                    valueScore[0] = val16;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val16;
+                    resetToNewQuestion();
+
+                    break;
+                case 17:
+                    b = 0;
+                    String val17 = b.ToString();
+                    valueScore[0] = val17;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val17;
+                    resetToNewQuestion();
+
+                    break;
+                case 18:
+                    b = 0;
+                    String val18 = b.ToString();
+                    valueScore[0] = val18;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val18;
+                    resetToNewQuestion();
+
+                    break;
+                case 19:
+                    b = 0;
+                    String val19 = b.ToString();
+                    valueScore[0] = val19;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val19;
+                    resetToNewQuestion();
+
+                    break;
+                case 20:
+                    b = 0;
+                    String val20 = b.ToString();
+                    valueScore[0] = val20;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val20;
+                    resetToNewQuestion();
+
+                    break;
+                case 21:
+                    b = 0;
+                    String val21 = b.ToString();
+                    valueScore[0] = val21;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val21;
+                    resetToNewQuestion();
+
+                    break;
+                case 22:
+                    b = 0;
+                    String val22 = b.ToString();
+                    valueScore[0] = val22;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val22;
+                    resetToNewQuestion();
+
+                    break;
+                case 23:
+                    b = 0;
+                    String val23 = b.ToString();
+                    valueScore[0] = val23;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val23;
+                    resetToNewQuestion();
+
+                    break;
+                case 24:
+                    b = 0;
+                    String val24 = b.ToString();
+                    valueScore[0] = val24;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val24;
+                    resetToNewQuestion();
+
+                    break;
+                case 25:
+                    b = 0;
+                    String val25 = b.ToString();
+                    valueScore[0] = val25;
+                    //writing the current score value to the Mistakes text file
+                    File.WriteAllLines(pointSave, valueScore);
+                    lblMistakes.Text = val25;
+                    resetToNewQuestion();
+
+                    break;
+                case 26:
+                    resetToNewQuestion();
+
+                    break;
+                default:
+                    MessageBox.Show("It Has been completed!");
+                    break;
+
+
+
+            }
+
+
+
+        }
+        private void submitBtn_Click(object sender, EventArgs e)
+        {
+            //setting the file path to the text file
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScoreAlphabet.txt";
+
+            //reading the value in the file to the array
+            string[] value = File.ReadAllLines(pointSave);
+
+            //converting the array value to an integer
+
+            int a = int.Parse(value[0]);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             switch (a)
             {
 
@@ -2681,7 +3844,13 @@ namespace LearningGame1
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             a = int.Parse(value[0]);
+=======
+            var pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScoreAlphabet.txt";
+            string[] value = File.ReadAllLines(pointSave);
+            int a = int.Parse(value[0]);
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
 
             switch (a) {
                 case 0:

@@ -51,6 +51,7 @@ namespace LearningGame1
             alphabetCaller.ShowDialog();
             this.Close();
         }
+<<<<<<< HEAD
 
         private void btnTest_Click(object sender, EventArgs e)
         {
@@ -67,5 +68,7 @@ namespace LearningGame1
             test2Caller.ShowDialog();
             this.Close();
         }
+=======
+>>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
     }
 }
