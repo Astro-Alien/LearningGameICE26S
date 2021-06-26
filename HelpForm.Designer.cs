@@ -36,7 +36,7 @@ namespace LearningGame1
             // 
             // helpRTBox
             // 
-            this.helpRTBox.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.helpRTBox.BackColor = System.Drawing.Color.OldLace;
             this.helpRTBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.helpRTBox.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.helpRTBox.Location = new System.Drawing.Point(47, 102);
@@ -57,19 +57,22 @@ namespace LearningGame1
             // 
             // goBackBtn
             // 
+            this.goBackBtn.BackColor = System.Drawing.Color.OldLace;
+            this.goBackBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.goBackBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.goBackBtn.Location = new System.Drawing.Point(263, 410);
             this.goBackBtn.Name = "goBackBtn";
             this.goBackBtn.Size = new System.Drawing.Size(213, 52);
             this.goBackBtn.TabIndex = 2;
             this.goBackBtn.Text = "Go Back";
-            this.goBackBtn.UseVisualStyleBackColor = true;
+            this.goBackBtn.UseVisualStyleBackColor = false;
             this.goBackBtn.Click += new System.EventHandler(this.goBackBtn_Click);
             // 
             // HelpForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Moccasin;
             this.ClientSize = new System.Drawing.Size(748, 496);
             this.Controls.Add(this.goBackBtn);
             this.Controls.Add(this.label1);

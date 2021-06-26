@@ -48,27 +48,33 @@ namespace LearningGame1
             this.playBtn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pBox1)).BeginInit();
             this.hintGroupBox.SuspendLayout();
             this.answerGroupBox.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pointsLbl
             // 
             this.pointsLbl.AutoSize = true;
             this.pointsLbl.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.pointsLbl.Location = new System.Drawing.Point(28, 34);
+            this.pointsLbl.Location = new System.Drawing.Point(11, 10);
             this.pointsLbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.pointsLbl.Name = "pointsLbl";
-            this.pointsLbl.Size = new System.Drawing.Size(228, 45);
+            this.pointsLbl.Size = new System.Drawing.Size(124, 45);
             this.pointsLbl.TabIndex = 1;
-            this.pointsLbl.Text = "Points scored: ";
+            this.pointsLbl.Text = "Points: ";
             // 
             // lblScore
             // 
             this.lblScore.AutoSize = true;
             this.lblScore.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblScore.Location = new System.Drawing.Point(264, 34);
+            this.lblScore.Location = new System.Drawing.Point(125, 13);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(38, 45);
             this.lblScore.TabIndex = 10;
@@ -77,31 +83,31 @@ namespace LearningGame1
             // mistakesLbl
             // 
             this.mistakesLbl.AutoSize = true;
-            this.mistakesLbl.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.mistakesLbl.Location = new System.Drawing.Point(1012, 34);
+            this.mistakesLbl.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.mistakesLbl.Location = new System.Drawing.Point(18, 11);
             this.mistakesLbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.mistakesLbl.Name = "mistakesLbl";
-            this.mistakesLbl.Size = new System.Drawing.Size(179, 31);
+            this.mistakesLbl.Size = new System.Drawing.Size(162, 45);
             this.mistakesLbl.TabIndex = 11;
-            this.mistakesLbl.Text = "Mistakes made: ";
+            this.mistakesLbl.Text = "Mistakes: ";
             // 
             // lblMistakes
             // 
             this.lblMistakes.AutoSize = true;
-            this.lblMistakes.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblMistakes.Location = new System.Drawing.Point(1189, 34);
+            this.lblMistakes.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMistakes.Location = new System.Drawing.Point(178, 11);
             this.lblMistakes.Name = "lblMistakes";
-            this.lblMistakes.Size = new System.Drawing.Size(26, 31);
+            this.lblMistakes.Size = new System.Drawing.Size(38, 45);
             this.lblMistakes.TabIndex = 12;
             this.lblMistakes.Text = "0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(1213, 34);
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(211, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 31);
+            this.label2.Size = new System.Drawing.Size(133, 45);
             this.label2.TabIndex = 13;
             this.label2.Text = "out of 3";
             // 
@@ -120,23 +126,26 @@ namespace LearningGame1
             this.pBox1.Location = new System.Drawing.Point(28, 128);
             this.pBox1.Margin = new System.Windows.Forms.Padding(5);
             this.pBox1.Name = "pBox1";
-            this.pBox1.Size = new System.Drawing.Size(509, 500);
+            this.pBox1.Size = new System.Drawing.Size(514, 426);
             this.pBox1.TabIndex = 15;
             this.pBox1.TabStop = false;
             // 
             // submitBtn
             // 
+            this.submitBtn.BackColor = System.Drawing.Color.Moccasin;
+            this.submitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.submitBtn.Location = new System.Drawing.Point(698, 522);
+            this.submitBtn.Location = new System.Drawing.Point(698, 556);
             this.submitBtn.Name = "submitBtn";
-            this.submitBtn.Size = new System.Drawing.Size(493, 72);
+            this.submitBtn.Size = new System.Drawing.Size(493, 115);
             this.submitBtn.TabIndex = 18;
             this.submitBtn.Text = "Submit";
-            this.submitBtn.UseVisualStyleBackColor = true;
+            this.submitBtn.UseVisualStyleBackColor = false;
             this.submitBtn.Click += new System.EventHandler(this.submitBtn_Click);
             // 
             // hintGroupBox
             // 
+            this.hintGroupBox.BackColor = System.Drawing.Color.GreenYellow;
             this.hintGroupBox.Controls.Add(this.letter4);
             this.hintGroupBox.Controls.Add(this.letter3);
             this.hintGroupBox.Controls.Add(this.letter2);
@@ -183,6 +192,7 @@ namespace LearningGame1
             // 
             // answerGroupBox
             // 
+            this.answerGroupBox.BackColor = System.Drawing.Color.GreenYellow;
             this.answerGroupBox.Controls.Add(this.t3);
             this.answerGroupBox.Controls.Add(this.t4);
             this.answerGroupBox.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -211,42 +221,78 @@ namespace LearningGame1
             // 
             // playBtn
             // 
+            this.playBtn.BackColor = System.Drawing.Color.Moccasin;
+            this.playBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.playBtn.Location = new System.Drawing.Point(28, 658);
+            this.playBtn.Location = new System.Drawing.Point(300, 588);
             this.playBtn.Name = "playBtn";
-            this.playBtn.Size = new System.Drawing.Size(94, 40);
+            this.playBtn.Size = new System.Drawing.Size(272, 83);
             this.playBtn.TabIndex = 20;
-            this.playBtn.Text = "PLAY";
-            this.playBtn.UseVisualStyleBackColor = true;
+            this.playBtn.Text = "Play Hint";
+            this.playBtn.UseVisualStyleBackColor = false;
             this.playBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Moccasin;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(905, 615);
+            this.button2.Location = new System.Drawing.Point(28, 588);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 44);
+            this.button2.Size = new System.Drawing.Size(252, 83);
             this.button2.TabIndex = 21;
             this.button2.Text = "Return";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(605, 45);
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 31);
+            this.label1.Size = new System.Drawing.Size(255, 45);
             this.label1.TabIndex = 22;
             this.label1.Text = "Counting To Ten";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.GreenYellow;
+            this.panel1.Controls.Add(this.pointsLbl);
+            this.panel1.Controls.Add(this.lblScore);
+            this.panel1.Location = new System.Drawing.Point(647, 23);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(180, 68);
+            this.panel1.TabIndex = 23;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.GreenYellow;
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Location = new System.Drawing.Point(28, 23);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(279, 68);
+            this.panel2.TabIndex = 24;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.GreenYellow;
+            this.panel3.Controls.Add(this.mistakesLbl);
+            this.panel3.Controls.Add(this.lblMistakes);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Location = new System.Drawing.Point(905, 23);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(358, 68);
+            this.panel3.TabIndex = 25;
             // 
             // Numbers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(1317, 710);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.playBtn);
             this.Controls.Add(this.answerGroupBox);
@@ -254,11 +300,7 @@ namespace LearningGame1
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.pBox1);
             this.Controls.Add(this.guessTheWordsLbl);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblMistakes);
-            this.Controls.Add(this.mistakesLbl);
-            this.Controls.Add(this.lblScore);
-            this.Controls.Add(this.pointsLbl);
+            this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.Name = "Numbers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -269,6 +311,12 @@ namespace LearningGame1
             this.hintGroupBox.PerformLayout();
             this.answerGroupBox.ResumeLayout(false);
             this.answerGroupBox.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,5 +343,8 @@ namespace LearningGame1
         private System.Windows.Forms.Button playBtn;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

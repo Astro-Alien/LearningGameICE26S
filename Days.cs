@@ -14,13 +14,13 @@ namespace LearningGame1
 {
     public partial class Days : Form
     {   
-        private static string pointSave = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
+        private static string pointSave = @"C:\Users\joshu\source\repos\LearningGameICE26S(Design)\SavedScore.txt";
         private string[] value = File.ReadAllLines(pointSave);
         
-        private static string pointSaveM = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\Mistakes.txt";
+        private static string pointSaveM = @"C:\Users\joshu\source\repos\LearningGameICE26S(Design)\Mistakes.txt";
         private string[] valueM = File.ReadAllLines(pointSaveM);
         
-        private static string pointSaveScore = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\SavedScore.txt";
+        private static string pointSaveScore = @"C:\Users\joshu\source\repos\LearningGameICE26S(Design)\SavedScore.txt";
         private string[] valueScore = File.ReadAllLines(pointSaveScore);
         
         private int a = 0;
