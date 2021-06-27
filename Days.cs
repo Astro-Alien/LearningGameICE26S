@@ -55,7 +55,7 @@ namespace LearningGame1
         {
             lblScore.Text = value[0];
             //converting the array value to an integer
-            int a = int.Parse(value[0]);
+            a = int.Parse(value[0]);
 
             switch (a)
             {
@@ -128,7 +128,7 @@ namespace LearningGame1
         }
         private void LevelTwo()
         {
-            int a = 0;
+            a = 0;
             String res2 = a.ToString();
             valueM[0] = res2;
             File.WriteAllLines(pointSaveM, valueM);
@@ -178,7 +178,7 @@ namespace LearningGame1
         }
         private void LevelThree()
         {
-            int a = 0;
+            a = 0;
             String res3 = a.ToString();
             valueM[0] = res3;
             File.WriteAllLines(pointSaveM, valueM);
@@ -228,7 +228,7 @@ namespace LearningGame1
         }
         private void LevelFour()
         {
-            int a = 0;
+            a = 0;
             String res4 = a.ToString();
             valueM[0] = res4;
             File.WriteAllLines(pointSaveM, valueM);
@@ -280,7 +280,7 @@ namespace LearningGame1
         }
         private void LevelFive()
         {
-            int a = 0;
+            a = 0;
             String res5 = a.ToString();
             valueM[0] = res5;
             File.WriteAllLines(pointSaveM, valueM);
@@ -336,7 +336,7 @@ namespace LearningGame1
         }
         private void LevelSix()
         {
-            int a = 0;
+            a = 0;
             String res6 = a.ToString();
             valueM[0] = res6;
             File.WriteAllLines(pointSaveM, valueM);
@@ -395,7 +395,7 @@ namespace LearningGame1
         }
         private void LevelSeven()
         {
-            int a = 0;
+            a = 0;
             String res7 = a.ToString();
             valueM[0] = res7;
             File.WriteAllLines(pointSaveM, valueM);
