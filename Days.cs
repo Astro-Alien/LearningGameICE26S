@@ -13,18 +13,18 @@ using System.Media;
 namespace LearningGame1
 {
     public partial class Days : Form
-    {   
-        private static string pointSave = @"C:\Users\joshu\source\repos\LearningGameICE26S(Design)\SavedScore.txt";
+    {
+        private static string pointSave = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScore.txt";
         private string[] value = File.ReadAllLines(pointSave);
-        
-        private static string pointSaveM = @"C:\Users\joshu\source\repos\LearningGameICE26S(Design)\Mistakes.txt";
+
+        private static string pointSaveM = @"C:\Users\Charles\Downloads\LearningGameICE26S\Mistakes.txt";
         private string[] valueM = File.ReadAllLines(pointSaveM);
-        
-        private static string pointSaveScore = @"C:\Users\joshu\source\repos\LearningGameICE26S(Design)\SavedScore.txt";
-        private string[] valueScore = File.ReadAllLines(pointSaveScore);
-        
-        private int a = 0;
-        private int b = 0;
+
+        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\Mistakes.txt";
+        private string[] valueMistake = File.ReadAllLines(pointMistakes);
+
+
+
 
         private System.Media.SoundPlayer hint1 = new System.Media.SoundPlayer();
         private System.Media.SoundPlayer hint2 = new System.Media.SoundPlayer();
@@ -37,13 +37,13 @@ namespace LearningGame1
         public Days()
         {
             InitializeComponent();
-            hint1.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundDaysoftheweek\Maandag.wav";
-            hint2.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundDaysoftheweek\dinsdag.wav";
-            hint3.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundDaysoftheweek\Woensdag.wav";
-            hint4.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundDaysoftheweek\Donderdag.wav";
-            hint5.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundDaysoftheweek\Vrydag.wav";
-            hint6.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundDaysoftheweek\Saterdag.wav";
-            hint7.SoundLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\soundDaysoftheweek\Sondag.wav";
+            hint1.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Maandag.wav";
+            hint2.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\dinsdag.wav";
+            hint3.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Woensdag.wav";
+            hint4.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Donderdag.wav";
+            hint5.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Vrydag.wav";
+            hint6.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Saterdag.wav";
+            hint7.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Sondag.wav";
         }
 
         private void letter1_TextChanged(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace LearningGame1
         {
             lblScore.Text = value[0];
             //converting the array value to an integer
-            a = int.Parse(value[0]);
+            int a = int.Parse(value[0]);
 
             switch (a)
             {
@@ -83,6 +83,11 @@ namespace LearningGame1
         //--------------------------------------------------------------Level methods where the position of the textboxes and text values are set
         private void LevelOne()
         {
+            int a = 0;
+            String res1 = a.ToString();
+            valueM[0] = res1;
+            File.WriteAllLines(pointSaveM, valueM);
+            lblMistakes.Text = res1;
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(534, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -120,7 +125,7 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\M.jpg";
+            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\M.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -128,7 +133,7 @@ namespace LearningGame1
         }
         private void LevelTwo()
         {
-            a = 0;
+            int a = 0;
             String res2 = a.ToString();
             valueM[0] = res2;
             File.WriteAllLines(pointSaveM, valueM);
@@ -172,13 +177,13 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\D.jpg";
+            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\D.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
         private void LevelThree()
         {
-            a = 0;
+            int a = 0;
             String res3 = a.ToString();
             valueM[0] = res3;
             File.WriteAllLines(pointSaveM, valueM);
@@ -223,12 +228,12 @@ namespace LearningGame1
             letter9.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\W.jpg";
+            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\W.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFour()
         {
-            a = 0;
+            int a = 0;
             String res4 = a.ToString();
             valueM[0] = res4;
             File.WriteAllLines(pointSaveM, valueM);
@@ -274,13 +279,13 @@ namespace LearningGame1
             letter9.Text = "G";
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\D1.jfif";
+            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\D1.jfif";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
         private void LevelFive()
         {
-            a = 0;
+            int a = 0;
             String res5 = a.ToString();
             valueM[0] = res5;
             File.WriteAllLines(pointSaveM, valueM);
@@ -330,13 +335,13 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\V.jpg";
+            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\V.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
         private void LevelSix()
         {
-            a = 0;
+            int a = 0;
             String res6 = a.ToString();
             valueM[0] = res6;
             File.WriteAllLines(pointSaveM, valueM);
@@ -390,12 +395,12 @@ namespace LearningGame1
             letter9.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\S.jpg";
+            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\S.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelSeven()
         {
-            a = 0;
+            int a = 0;
             String res7 = a.ToString();
             valueM[0] = res7;
             File.WriteAllLines(pointSaveM, valueM);
@@ -445,7 +450,7 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\joshu\Dropbox\My PC (LAPTOP-GL5QPPVH)\Downloads\GameDev-Assignment-2-220498385 (1) - 1\GameDev-Assignment-2-220498385\GameDev-Assignment-2-master\images\S1.jpg";
+            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\S1.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -865,16 +870,16 @@ namespace LearningGame1
         private void PointSystemMatches()
         {
             //converting the array value to an integer
-           int a = int.Parse(value[0]);
+            int a = int.Parse(value[0]);
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
             {
 
-                case 0:                   
-                case 1:                  
-                case 2:                   
-                case 3:                   
+                case 0:
+                case 1:
+                case 2:
+                case 3:
                 case 4:
                 case 5:
                 case 6:
@@ -894,12 +899,13 @@ namespace LearningGame1
 
 
 
+
         }
         //------------------------------------------------------------------------------------------------------------PointSystemDoesNotMatch() checks the current  lose point in the text file and increments it by 1
         private void PointSystemDoesNotMatch()
         {
             //converting the array value to an integer
-           int a = int.Parse(valueM[0]);
+            int a = int.Parse(valueM[0]);
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
@@ -931,9 +937,9 @@ namespace LearningGame1
                     lblMistakes.Text = val1;
                     GameOver();
                     break;
-                
+
                 default:
-                    MessageBox.Show("  ***Game Over***") ;
+                    MessageBox.Show("  ***Game Over***");
                     break;
 
             }
@@ -943,7 +949,7 @@ namespace LearningGame1
         {
             //converting the array value to an integer
             int a = int.Parse(value[0]);
-            
+
             //The switch when called will check the value in the txt file and call the level after that value e.g(a =1 that means call level 2).
             switch (a)
             {
@@ -1065,6 +1071,7 @@ namespace LearningGame1
 
         private void GameOver()
         {
+
             int b = 0;
             String v = b.ToString();
             valueMistake[0] = v;
@@ -1072,8 +1079,6 @@ namespace LearningGame1
             MessageBox.Show("                    ***YOU HAVE FAILED THIS LEVEL***\n      ***THE LEVEL WILL RESET WHEN YOU CLICK ON OK***");
             lblMistakes.Text = valueMistake[0];
             resetToNewQuestion();
-
-
 
         }
 
@@ -1086,7 +1091,7 @@ namespace LearningGame1
         {
             //converting the array value to an integer
             int a = int.Parse(value[0]);
-            
+
             switch (a)
             {
 
@@ -1121,11 +1126,11 @@ namespace LearningGame1
             }
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void playBtn_Click_1(object sender, EventArgs e)
         {
             //converting the array value to an integer
             int a = int.Parse(value[0]);
-            
+
             switch (a)
             {
 

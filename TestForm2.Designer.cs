@@ -100,7 +100,7 @@ namespace LearningGame1
             // 
             // pAnswer
             // 
-            this.pAnswer.Location = new System.Drawing.Point(255, 166);
+            this.pAnswer.Location = new System.Drawing.Point(255, 165);
             this.pAnswer.Name = "pAnswer";
             this.pAnswer.Size = new System.Drawing.Size(275, 206);
             this.pAnswer.TabIndex = 17;
@@ -110,7 +110,7 @@ namespace LearningGame1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(171, 399);
+            this.label2.Location = new System.Drawing.Point(192, 395);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(436, 28);
             this.label2.TabIndex = 18;

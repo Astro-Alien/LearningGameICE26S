@@ -311,7 +311,7 @@ namespace LearningGame1
             this.playBtn.TabIndex = 13;
             this.playBtn.Text = "Play Hint";
             this.playBtn.UseVisualStyleBackColor = false;
-            this.playBtn.Click += new System.EventHandler(this.button1_Click_1);
+            this.playBtn.Click += new System.EventHandler(this.playBtn_Click_1);
             // 
             // button2
             // 
