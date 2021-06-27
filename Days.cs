@@ -55,36 +55,19 @@ namespace LearningGame1
         {
             lblScore.Text = value[0];
             //converting the array value to an integer
-            a = int.Parse(value[0]);
+            int a = int.Parse(value[0]);
 
             switch (a)
             {
 
                 case 0:
-                    LevelOne();
-                    break;
                 case 1:
-                    LevelTwo();
-                    break;
                 case 2:
-                    LevelThree();
-                    break;
                 case 3:
-                    LevelFour();
-                    break;
                 case 4:
-                    LevelFive();
-                    break;
                 case 5:
-                    LevelSix();
-                    break;
                 case 6:
-                    LevelSeven();
-                    break;
-                case 7:
-                    MessageBox.Show("***YOU HAVE COMPLETED THIS LEVEL***");
-                    Close();
-
+                    resetToNewQuestion();
                     break;
                 default:
                     MessageBox.Show("It is Done");
@@ -145,7 +128,7 @@ namespace LearningGame1
         }
         private void LevelTwo()
         {
-            a = 0;
+            int a = 0;
             String res2 = a.ToString();
             valueM[0] = res2;
             File.WriteAllLines(pointSaveM, valueM);
@@ -195,7 +178,7 @@ namespace LearningGame1
         }
         private void LevelThree()
         {
-            a = 0;
+            int a = 0;
             String res3 = a.ToString();
             valueM[0] = res3;
             File.WriteAllLines(pointSaveM, valueM);
@@ -245,7 +228,7 @@ namespace LearningGame1
         }
         private void LevelFour()
         {
-            a = 0;
+            int a = 0;
             String res4 = a.ToString();
             valueM[0] = res4;
             File.WriteAllLines(pointSaveM, valueM);
@@ -297,7 +280,7 @@ namespace LearningGame1
         }
         private void LevelFive()
         {
-            a = 0;
+            int a = 0;
             String res5 = a.ToString();
             valueM[0] = res5;
             File.WriteAllLines(pointSaveM, valueM);
@@ -353,7 +336,7 @@ namespace LearningGame1
         }
         private void LevelSix()
         {
-            a = 0;
+            int a = 0;
             String res6 = a.ToString();
             valueM[0] = res6;
             File.WriteAllLines(pointSaveM, valueM);
@@ -412,7 +395,7 @@ namespace LearningGame1
         }
         private void LevelSeven()
         {
-            a = 0;
+            int a = 0;
             String res7 = a.ToString();
             valueM[0] = res7;
             File.WriteAllLines(pointSaveM, valueM);
@@ -882,67 +865,18 @@ namespace LearningGame1
         private void PointSystemMatches()
         {
             //converting the array value to an integer
-            a = int.Parse(value[0]);
+           int a = int.Parse(value[0]);
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
             {
 
-                case 0:
-                    a += 1;
-                    String val = a.ToString();
-                    value[0] = val;
-                    //writing the current score value to the SavedScore text file
-                    File.WriteAllLines(pointSave, value);
-                    lblScore.Text = val;
-                    resetToNewQuestion();
-
-                    break;
-                case 1:
-                    a += 1;
-                    String val1 = a.ToString();
-                    value[0] = val1;
-                    //writing the current score value to the SavedScore text file
-                    File.WriteAllLines(pointSave, value);
-                    lblScore.Text = val1;
-                    resetToNewQuestion();
-                    break;
-                case 2:
-                    a += 1;
-                    String val2 = a.ToString();
-                    value[0] = val2;
-                    //writing the current score value to the SavedScore text file
-                    File.WriteAllLines(pointSave, value);
-                    lblScore.Text = val2;
-                    resetToNewQuestion();
-                    break;
-                case 3:
-                    a += 1;
-                    String val3 = a.ToString();
-                    value[0] = val3;
-                    //writing the current score value to the SavedScore text file
-                    File.WriteAllLines(pointSave, value);
-                    lblScore.Text = val3;
-                    resetToNewQuestion();
-                    break;
+                case 0:                   
+                case 1:                  
+                case 2:                   
+                case 3:                   
                 case 4:
-                    a += 1;
-                    String val4 = a.ToString();
-                    value[0] = val4;
-                    //writing the current score value to the SavedScore text file
-                    File.WriteAllLines(pointSave, value);
-                    lblScore.Text = val4;
-                    resetToNewQuestion();
-                    break;
                 case 5:
-                    a += 1;
-                    String val5 = a.ToString();
-                    value[0] = val5;
-                    //writing the current score value to the SavedScore text file
-                    File.WriteAllLines(pointSave, value);
-                    lblScore.Text = val5;
-                    resetToNewQuestion();
-                    break;
                 case 6:
                     a += 1;
                     String val6 = a.ToString();
@@ -960,18 +894,18 @@ namespace LearningGame1
 
 
 
-
         }
         //------------------------------------------------------------------------------------------------------------PointSystemDoesNotMatch() checks the current  lose point in the text file and increments it by 1
         private void PointSystemDoesNotMatch()
         {
             //converting the array value to an integer
-            a = int.Parse(valueM[0]);
+           int a = int.Parse(valueM[0]);
 
             //incrementing by one and saving the new value to the file for later use
             switch (a)
             {
                 case 0:
+                case 1:
                     a += 1;
                     String val = a.ToString();
                     valueM[0] = val;
@@ -984,7 +918,7 @@ namespace LearningGame1
                     lblMistakes.Text = val;
                     break;
 
-                case 1:
+                case 2:
                     a += 1;
                     String val1 = a.ToString();
                     valueM[0] = val1;
@@ -995,24 +929,11 @@ namespace LearningGame1
                     t5.Text = "";
                     t6.Text = "";
                     lblMistakes.Text = val1;
-                    break;
-
-                case 2:
-                    a += 1;
-                    String val2 = a.ToString();
-                    valueM[0] = val2;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveM, valueM);
-                    t3.Text = "";
-                    t4.Text = "";
-                    t5.Text = "";
-                    t6.Text = "";
-                    lblMistakes.Text = val2;
                     GameOver();
                     break;
                 
                 default:
-                    MessageBox.Show("GAME OVER");
+                    MessageBox.Show("  ***Game Over***") ;
                     break;
 
             }
@@ -1021,13 +942,16 @@ namespace LearningGame1
         private void resetToNewQuestion()
         {
             //converting the array value to an integer
-            a = int.Parse(value[0]);
+            int a = int.Parse(value[0]);
             
             //The switch when called will check the value in the txt file and call the level after that value e.g(a =1 that means call level 2).
             switch (a)
             {
 
                 case 0:
+                    valueMistake[0] = "0";
+                    File.WriteAllLines(pointMistakes, valueMistake);
+                    lblMistakes.Text = valueMistake[0];
                     letter7.Visible = true;
                     LevelOne();
                     t3.Text = "";
@@ -1036,6 +960,9 @@ namespace LearningGame1
 
                     break;
                 case 1:
+                    valueMistake[0] = "0";
+                    File.WriteAllLines(pointMistakes, valueMistake);
+                    lblMistakes.Text = valueMistake[0];
                     t6.Visible = true;
                     LevelTwo();
                     t3.Text = "";
@@ -1044,6 +971,9 @@ namespace LearningGame1
 
                     break;
                 case 2:
+                    valueMistake[0] = "0";
+                    File.WriteAllLines(pointMistakes, valueMistake);
+                    lblMistakes.Text = valueMistake[0];
                     letter8.Visible = true;
                     letter9.Visible = true;
                     t6.Visible = true;
@@ -1055,6 +985,9 @@ namespace LearningGame1
 
                     break;
                 case 3:
+                    valueMistake[0] = "0";
+                    File.WriteAllLines(pointMistakes, valueMistake);
+                    lblMistakes.Text = valueMistake[0];
                     letter8.Visible = true;
                     letter9.Visible = true;
                     t6.Visible = true;
@@ -1066,6 +999,9 @@ namespace LearningGame1
 
                     break;
                 case 4:
+                    valueMistake[0] = "0";
+                    File.WriteAllLines(pointMistakes, valueMistake);
+                    lblMistakes.Text = valueMistake[0];
                     LevelFive();
                     t3.Text = "";
                     t4.Text = "";
@@ -1073,6 +1009,9 @@ namespace LearningGame1
 
                     break;
                 case 5:
+                    valueMistake[0] = "0";
+                    File.WriteAllLines(pointMistakes, valueMistake);
+                    lblMistakes.Text = valueMistake[0];
                     letter7.Visible = true;
                     letter8.Visible = true;
                     letter9.Visible = true;
@@ -1085,6 +1024,9 @@ namespace LearningGame1
 
                     break;
                 case 6:
+                    valueMistake[0] = "0";
+                    File.WriteAllLines(pointMistakes, valueMistake);
+                    lblMistakes.Text = valueMistake[0];
                     LevelSeven();
                     t3.Text = "";
                     t4.Text = "";
@@ -1095,8 +1037,8 @@ namespace LearningGame1
 
                     MessageBox.Show("***YOU HAVE COMPLETED ALL LEVELS RETURN TO GAME SELECTION***");
                     //RESET LBLSCORE TO 0 AND RERUN THE PROGRAM IN A LOOP
-                    a = 0;
-                    String val = a.ToString();
+                    int b = 0;
+                    String val = b.ToString();
                     value[0] = val;
                     //writing the current score value to the SavedScore text file
                     File.WriteAllLines(pointSave, value);
@@ -1123,135 +1065,13 @@ namespace LearningGame1
 
         private void GameOver()
         {
-            a = 0;
-            String val = a.ToString();
-            value[0] = val;
-
-            //writing the current score value to the SavedScore text file
-            File.WriteAllLines(pointSave, value);
-            lblScore.Text = val;
-
-            MessageBox.Show("                  ***YOU HAVE FAILED THIS LEVEL***\n   ***THE LEVEL WILL RESET WHEN YOU CLICK ON OK***");
-            //---------------------------------------------------------------------------------------------------------------------------------------
-
-            //converting the array value to an integer
-            b = int.Parse(valueScore[0]);
-
-            switch (b)
-            {
-
-                case 0:
-                    b = 0;
-                    String val1 = b.ToString();
-                    valueScore[0] = val1;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val1;
-                    resetToNewQuestion();
-
-                    break;
-                case 1:
-                    b = 0;
-                    String val2 = b.ToString();
-                    valueScore[0] = val2;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val2;
-                    resetToNewQuestion();
-
-                    break;
-                case 2:
-                    b = 0;
-                    String val3 = b.ToString();
-                    valueScore[0] = val3;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val3;
-                    resetToNewQuestion();
-
-                    break;
-                case 3:
-                    b = 0;
-                    String val4 = b.ToString();
-                    valueScore[0] = val4;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val4;
-                    resetToNewQuestion();
-
-                    break;
-                case 4:
-                    b = 0;
-                    String val5 = b.ToString();
-                    valueScore[0] = val5;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val5;
-                    resetToNewQuestion();
-
-                    break;
-                case 5:
-                    b = 0;
-                    String val6 = b.ToString();
-                    valueScore[0] = val6;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val6;
-                    resetToNewQuestion();
-
-                    break;
-                case 6:
-                    b = 0;
-                    String val7 = b.ToString();
-                    valueScore[0] = val7;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val7;
-                    resetToNewQuestion();
-
-                    break;
-                case 7:
-                    b = 0;
-                    String val8 = b.ToString();
-                    valueScore[0] = val8;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val8;
-                    resetToNewQuestion();
-
-                    break;
-
-                case 8:
-                    b = 0;
-                    String val9 = b.ToString();
-                    valueScore[0] = val9;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val9;
-                    resetToNewQuestion();
-
-                    break;
-                case 9:
-                    b = 0;
-                    String val10 = b.ToString();
-                    valueScore[0] = val10;
-                    //writing the current score value to the Mistakes text file
-                    File.WriteAllLines(pointSaveScore, valueScore);
-                    lblMistakes.Text = val10;
-                    resetToNewQuestion();
-
-                    break;
-                case 10:
-                    resetToNewQuestion();
-
-                    break;
-                default:
-                    MessageBox.Show("It Has been completed!");
-                    break;
-
-
-
-            }
+            int b = 0;
+            String v = b.ToString();
+            valueMistake[0] = v;
+            File.WriteAllLines(pointMistakes, valueMistake);
+            MessageBox.Show("                    ***YOU HAVE FAILED THIS LEVEL***\n      ***THE LEVEL WILL RESET WHEN YOU CLICK ON OK***");
+            lblMistakes.Text = valueMistake[0];
+            resetToNewQuestion();
 
 
 
@@ -1265,7 +1085,7 @@ namespace LearningGame1
         private void submitBtn_Click_1(object sender, EventArgs e)
         {
             //converting the array value to an integer
-            a = int.Parse(value[0]);
+            int a = int.Parse(value[0]);
             
             switch (a)
             {
@@ -1304,7 +1124,7 @@ namespace LearningGame1
         private void button1_Click_1(object sender, EventArgs e)
         {
             //converting the array value to an integer
-            a = int.Parse(value[0]);
+            int a = int.Parse(value[0]);
             
             switch (a)
             {
