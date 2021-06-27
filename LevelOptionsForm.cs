@@ -51,5 +51,21 @@ namespace LearningGame1
             alphabetCaller.ShowDialog();
             this.Close();
         }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TestForm testCaller = new TestForm();
+            testCaller.ShowDialog();
+            this.Close();
+        }
+
+        private void btnQuiz_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TestForm2 test2Caller = new TestForm2();
+            test2Caller.ShowDialog();
+            this.Close();
+        }
     }
 }

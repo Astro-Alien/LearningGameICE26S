@@ -37,6 +37,8 @@ namespace LearningGame1
             this.dBtn = new System.Windows.Forms.Button();
             this.nBtn = new System.Windows.Forms.Button();
             this.goBackBtn = new System.Windows.Forms.Button();
+            this.btnTest = new System.Windows.Forms.Button();
+            this.btnQuiz = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -120,7 +122,7 @@ namespace LearningGame1
             this.goBackBtn.BackColor = System.Drawing.Color.OldLace;
             this.goBackBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.goBackBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.goBackBtn.Location = new System.Drawing.Point(331, 389);
+            this.goBackBtn.Location = new System.Drawing.Point(320, 564);
             this.goBackBtn.Name = "goBackBtn";
             this.goBackBtn.Size = new System.Drawing.Size(270, 83);
             this.goBackBtn.TabIndex = 7;
@@ -128,12 +130,40 @@ namespace LearningGame1
             this.goBackBtn.UseVisualStyleBackColor = false;
             this.goBackBtn.Click += new System.EventHandler(this.goBackBtn_Click);
             // 
+            // btnTest
+            // 
+            this.btnTest.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTest.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTest.Location = new System.Drawing.Point(509, 355);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Size = new System.Drawing.Size(166, 155);
+            this.btnTest.TabIndex = 8;
+            this.btnTest.Text = "Matching";
+            this.btnTest.UseVisualStyleBackColor = false;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            // 
+            // btnQuiz
+            // 
+            this.btnQuiz.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnQuiz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuiz.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnQuiz.Location = new System.Drawing.Point(227, 355);
+            this.btnQuiz.Name = "btnQuiz";
+            this.btnQuiz.Size = new System.Drawing.Size(166, 155);
+            this.btnQuiz.TabIndex = 9;
+            this.btnQuiz.Text = "Quiz";
+            this.btnQuiz.UseVisualStyleBackColor = false;
+            this.btnQuiz.Click += new System.EventHandler(this.btnQuiz_Click);
+            // 
             // LevelOptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(926, 517);
+            this.ClientSize = new System.Drawing.Size(926, 659);
+            this.Controls.Add(this.btnQuiz);
+            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.goBackBtn);
             this.Controls.Add(this.nBtn);
             this.Controls.Add(this.dBtn);
@@ -161,5 +191,7 @@ namespace LearningGame1
         private System.Windows.Forms.Button dBtn;
         private System.Windows.Forms.Button nBtn;
         private System.Windows.Forms.Button goBackBtn;
+        private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.Button btnQuiz;
     }
 }
