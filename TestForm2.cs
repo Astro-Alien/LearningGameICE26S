@@ -13,22 +13,22 @@ namespace LearningGame1
 {
     public partial class TestForm2 : Form
     {
-        private static string pointSaveQ = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\SavedScoreQuiz.txt";
+        private static string pointSaveQ = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScoreQuiz.txt";
         private static string[] valueQ = File.ReadAllLines(pointSaveQ);
 
 
-        private static string pointSaveQM = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\MistakesQuiz.txt";
+        private static string pointSaveQM = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesQuiz.txt";
         private static string[] valueQM = File.ReadAllLines(pointSaveQM);
 
-        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\MistakesQuiz.txt";
+        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesQuiz.txt";
         private static string[] valueMistake = File.ReadAllLines(pointMistakes);
 
-      
+
         public TestForm2()
         {
             InitializeComponent();
 
-            
+
             lblScore.Text = valueQ[0];
             //converting the array value to an integer
 
@@ -59,8 +59,12 @@ namespace LearningGame1
 
         private void LevelOne()
         {
-
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\goose.jpg";
+            int a = 0;
+            String res1 = a.ToString();
+            valueQM[0] = res1;
+            File.WriteAllLines(pointSaveQM, valueQM);
+            lblMistakes.Text = res1;
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\goose.jpg";
 
         }
         private void LevelTwo()
@@ -71,7 +75,7 @@ namespace LearningGame1
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
 
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\jas.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\jas.jpg";
 
         }
         private void LevelThree()
@@ -81,7 +85,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\cat.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\cat.jpg";
 
         }
         private void LevelFour()
@@ -91,7 +95,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\Lion.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\Lion.jpg";
 
         }
         private void LevelFive()
@@ -101,7 +105,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\nest.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\nest.jpg";
 
         }
         private void LevelSix()
@@ -111,7 +115,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\star.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\star.jpg";
 
         }
         private void LevelSeven()
@@ -121,7 +125,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\garden.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\garden.jpg";
 
         }
         private void LevelEight()
@@ -131,7 +135,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\Pig.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\Pig.jpg";
 
         }
         private void LevelNine()
@@ -141,7 +145,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\worm.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\worm.jpg";
 
         }
         private void LevelTen()
@@ -151,7 +155,7 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\Quiz images\x.jpg";
+            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\x.jpg";
 
         }
         private void MatchUpOne()
@@ -377,7 +381,7 @@ namespace LearningGame1
 
         private void PointSystemMatches()
         {
-            
+
 
             int a = int.Parse(valueQ[0]);
 
@@ -411,7 +415,7 @@ namespace LearningGame1
         private void PointSystemDoesNotMatch()
         {
 
-          
+
 
             int b = int.Parse(valueQM[0]);
 
@@ -452,7 +456,7 @@ namespace LearningGame1
         }
         private void resetToNewQuestion()
         {
-           
+
 
             int a = int.Parse(valueQ[0]);
 
@@ -460,7 +464,7 @@ namespace LearningGame1
             {
 
                 case 0:
-                   
+
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];
@@ -571,7 +575,7 @@ namespace LearningGame1
         }
         private void GameOver()
         {
-           
+
             valueMistake[0] = "0";
             File.WriteAllLines(pointMistakes, valueMistake);
             MessageBox.Show("                  ***YOU HAVE FAILED THIS QUESTION***\n   ***THE QUESTION WILL RESET WHEN YOU CLICK ON OK***");
