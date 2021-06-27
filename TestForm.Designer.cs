@@ -36,7 +36,6 @@ namespace LearningGame1
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblWord = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.p1 = new System.Windows.Forms.PictureBox();
             this.p2 = new System.Windows.Forms.PictureBox();
             this.p3 = new System.Windows.Forms.PictureBox();
@@ -44,27 +43,31 @@ namespace LearningGame1
             this.btnAnswerTwo = new System.Windows.Forms.Button();
             this.btnAnswerThree = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pointsLbl
             // 
             this.pointsLbl.AutoSize = true;
             this.pointsLbl.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.pointsLbl.Location = new System.Drawing.Point(4, 9);
+            this.pointsLbl.Location = new System.Drawing.Point(10, 12);
             this.pointsLbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.pointsLbl.Name = "pointsLbl";
-            this.pointsLbl.Size = new System.Drawing.Size(228, 45);
+            this.pointsLbl.Size = new System.Drawing.Size(124, 45);
             this.pointsLbl.TabIndex = 8;
-            this.pointsLbl.Text = "Points scored: ";
+            this.pointsLbl.Text = "Points: ";
             // 
             // lblScore
             // 
             this.lblScore.AutoSize = true;
             this.lblScore.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblScore.Location = new System.Drawing.Point(229, 9);
+            this.lblScore.Location = new System.Drawing.Point(122, 12);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(38, 45);
             this.lblScore.TabIndex = 11;
@@ -74,18 +77,18 @@ namespace LearningGame1
             // 
             this.mistakesLbl.AutoSize = true;
             this.mistakesLbl.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.mistakesLbl.Location = new System.Drawing.Point(598, 9);
+            this.mistakesLbl.Location = new System.Drawing.Point(13, 12);
             this.mistakesLbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.mistakesLbl.Name = "mistakesLbl";
-            this.mistakesLbl.Size = new System.Drawing.Size(231, 41);
+            this.mistakesLbl.Size = new System.Drawing.Size(148, 41);
             this.mistakesLbl.TabIndex = 12;
-            this.mistakesLbl.Text = "Mistakes made: ";
+            this.mistakesLbl.Text = "Mistakes: ";
             // 
             // lblMistakes
             // 
             this.lblMistakes.AutoSize = true;
             this.lblMistakes.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblMistakes.Location = new System.Drawing.Point(811, 12);
+            this.lblMistakes.Location = new System.Drawing.Point(153, 12);
             this.lblMistakes.Name = "lblMistakes";
             this.lblMistakes.Size = new System.Drawing.Size(34, 41);
             this.lblMistakes.TabIndex = 13;
@@ -95,7 +98,7 @@ namespace LearningGame1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(837, 12);
+            this.label4.Location = new System.Drawing.Point(182, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 41);
             this.label4.TabIndex = 14;
@@ -104,32 +107,24 @@ namespace LearningGame1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(424, 66);
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(284, 169);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 20);
+            this.label3.Size = new System.Drawing.Size(433, 28);
             this.label3.TabIndex = 15;
-            this.label3.Text = "Placeholder1";
+            this.label3.Text = "Choose the picture that fits the word description";
             // 
             // lblWord
             // 
             this.lblWord.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblWord.AutoSize = true;
             this.lblWord.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblWord.Location = new System.Drawing.Point(415, 101);
+            this.lblWord.Location = new System.Drawing.Point(434, 101);
             this.lblWord.Name = "lblWord";
             this.lblWord.Size = new System.Drawing.Size(115, 54);
             this.lblWord.TabIndex = 16;
             this.lblWord.Text = "FIETS";
             this.lblWord.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(424, 173);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 20);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Placeholder2";
             // 
             // p1
             // 
@@ -190,6 +185,7 @@ namespace LearningGame1
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.Color.OldLace;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBack.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnBack.Location = new System.Drawing.Point(433, 510);
@@ -197,14 +193,37 @@ namespace LearningGame1
             this.btnBack.Size = new System.Drawing.Size(109, 51);
             this.btnBack.TabIndex = 24;
             this.btnBack.Text = "Return";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.OldLace;
+            this.panel1.Controls.Add(this.lblScore);
+            this.panel1.Controls.Add(this.pointsLbl);
+            this.panel1.Location = new System.Drawing.Point(12, 9);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(180, 65);
+            this.panel1.TabIndex = 25;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.OldLace;
+            this.panel2.Controls.Add(this.mistakesLbl);
+            this.panel2.Controls.Add(this.lblMistakes);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Location = new System.Drawing.Point(664, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(322, 65);
+            this.panel2.TabIndex = 26;
             // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 595);
+            this.BackColor = System.Drawing.Color.Moccasin;
+            this.ClientSize = new System.Drawing.Size(998, 595);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnAnswerThree);
             this.Controls.Add(this.btnAnswerTwo);
@@ -212,14 +231,9 @@ namespace LearningGame1
             this.Controls.Add(this.p3);
             this.Controls.Add(this.p2);
             this.Controls.Add(this.p1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblWord);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.lblMistakes);
-            this.Controls.Add(this.mistakesLbl);
-            this.Controls.Add(this.lblScore);
-            this.Controls.Add(this.pointsLbl);
+            this.Controls.Add(this.panel1);
             this.Name = "TestForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TestForm";
@@ -227,6 +241,10 @@ namespace LearningGame1
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,7 +259,6 @@ namespace LearningGame1
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblWord;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox p1;
         private System.Windows.Forms.PictureBox p2;
         private System.Windows.Forms.PictureBox p3;
@@ -249,5 +266,7 @@ namespace LearningGame1
         private System.Windows.Forms.Button btnAnswerTwo;
         private System.Windows.Forms.Button btnAnswerThree;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
