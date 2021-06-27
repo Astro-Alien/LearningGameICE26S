@@ -37,13 +37,13 @@ namespace LearningGame1
         public Days()
         {
             InitializeComponent();
-            hint1.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundDaysoftheweek\Maandag.wav";
-            hint2.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundDaysoftheweek\dinsdag.wav";
-            hint3.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundDaysoftheweek\Woensdag.wav";
-            hint4.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundDaysoftheweek\Donderdag.wav";
-            hint5.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundDaysoftheweek\Vrydag.wav";
-            hint6.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundDaysoftheweek\Saterdag.wav";
-            hint7.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S-master\soundDaysoftheweek\Sondag.wav";
+            hint1.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Maandag.wav";
+            hint2.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\dinsdag.wav";
+            hint3.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Woensdag.wav";
+            hint4.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Donderdag.wav";
+            hint5.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Vrydag.wav";
+            hint6.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Saterdag.wav";
+            hint7.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Sondag.wav";
         }
 
         private void letter1_TextChanged(object sender, EventArgs e)
