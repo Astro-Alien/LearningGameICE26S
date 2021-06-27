@@ -131,6 +131,7 @@ namespace LearningGame1
         //--------------------------------------------------------------Level methods where the position of the textboxes and text values are set
         private void LevelOne()
         {
+            submitBtn.Focus();
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
