@@ -37,28 +37,15 @@ namespace LearningGame1
             this.dBtn = new System.Windows.Forms.Button();
             this.nBtn = new System.Windows.Forms.Button();
             this.goBackBtn = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.btnTest = new System.Windows.Forms.Button();
             this.btnQuiz = new System.Windows.Forms.Button();
-=======
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-            this.label1.Location = new System.Drawing.Point(331, 23);
-=======
             this.label1.Location = new System.Drawing.Point(290, 23);
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(270, 45);
             this.label1.TabIndex = 0;
@@ -93,7 +80,6 @@ namespace LearningGame1
             // 
             // aBtn
             // 
-<<<<<<< HEAD
             this.aBtn.BackColor = System.Drawing.Color.LightSteelBlue;
             this.aBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -102,20 +88,11 @@ namespace LearningGame1
             this.aBtn.Size = new System.Drawing.Size(166, 155);
             this.aBtn.TabIndex = 4;
             this.aBtn.Text = "Alphabet";
-            this.aBtn.UseVisualStyleBackColor = false;
-=======
-            this.aBtn.Location = new System.Drawing.Point(88, 313);
-            this.aBtn.Name = "aBtn";
-            this.aBtn.Size = new System.Drawing.Size(166, 52);
-            this.aBtn.TabIndex = 4;
-            this.aBtn.Text = "Alphabet";
             this.aBtn.UseVisualStyleBackColor = true;
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             this.aBtn.Click += new System.EventHandler(this.aBtn_Click);
             // 
             // dBtn
             // 
-<<<<<<< HEAD
             this.dBtn.BackColor = System.Drawing.Color.LightSalmon;
             this.dBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -124,20 +101,11 @@ namespace LearningGame1
             this.dBtn.Size = new System.Drawing.Size(166, 155);
             this.dBtn.TabIndex = 5;
             this.dBtn.Text = "Days of the week";
-            this.dBtn.UseVisualStyleBackColor = false;
-=======
-            this.dBtn.Location = new System.Drawing.Point(591, 313);
-            this.dBtn.Name = "dBtn";
-            this.dBtn.Size = new System.Drawing.Size(166, 52);
-            this.dBtn.TabIndex = 5;
-            this.dBtn.Text = "Days of the week";
             this.dBtn.UseVisualStyleBackColor = true;
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             this.dBtn.Click += new System.EventHandler(this.dBtn_Click);
             // 
             // nBtn
             // 
-<<<<<<< HEAD
             this.nBtn.BackColor = System.Drawing.Color.YellowGreen;
             this.nBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -146,20 +114,11 @@ namespace LearningGame1
             this.nBtn.Size = new System.Drawing.Size(166, 155);
             this.nBtn.TabIndex = 6;
             this.nBtn.Text = "Numbers";
-            this.nBtn.UseVisualStyleBackColor = false;
-=======
-            this.nBtn.Location = new System.Drawing.Point(336, 313);
-            this.nBtn.Name = "nBtn";
-            this.nBtn.Size = new System.Drawing.Size(166, 52);
-            this.nBtn.TabIndex = 6;
-            this.nBtn.Text = "Numbers";
             this.nBtn.UseVisualStyleBackColor = true;
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             this.nBtn.Click += new System.EventHandler(this.nBtn_Click);
             // 
             // goBackBtn
             // 
-<<<<<<< HEAD
             this.goBackBtn.BackColor = System.Drawing.Color.OldLace;
             this.goBackBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.goBackBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -168,7 +127,7 @@ namespace LearningGame1
             this.goBackBtn.Size = new System.Drawing.Size(270, 83);
             this.goBackBtn.TabIndex = 7;
             this.goBackBtn.Text = "Go Back";
-            this.goBackBtn.UseVisualStyleBackColor = false;
+            this.goBackBtn.UseVisualStyleBackColor = true;
             this.goBackBtn.Click += new System.EventHandler(this.goBackBtn_Click);
             // 
             // btnTest
@@ -196,55 +155,15 @@ namespace LearningGame1
             this.btnQuiz.Text = "Quiz";
             this.btnQuiz.UseVisualStyleBackColor = false;
             this.btnQuiz.Click += new System.EventHandler(this.btnQuiz_Click);
-=======
-            this.goBackBtn.Location = new System.Drawing.Point(304, 450);
-            this.goBackBtn.Name = "goBackBtn";
-            this.goBackBtn.Size = new System.Drawing.Size(224, 51);
-            this.goBackBtn.TabIndex = 7;
-            this.goBackBtn.Text = "Go Back";
-            this.goBackBtn.UseVisualStyleBackColor = true;
-            this.goBackBtn.Click += new System.EventHandler(this.goBackBtn_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(88, 152);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(166, 155);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(336, 152);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(166, 155);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(591, 152);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(166, 155);
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             // 
             // LevelOptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.Moccasin;
             this.ClientSize = new System.Drawing.Size(926, 659);
             this.Controls.Add(this.btnQuiz);
             this.Controls.Add(this.btnTest);
-=======
-            this.ClientSize = new System.Drawing.Size(848, 538);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             this.Controls.Add(this.goBackBtn);
             this.Controls.Add(this.nBtn);
             this.Controls.Add(this.dBtn);
@@ -257,12 +176,6 @@ namespace LearningGame1
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LevelOptionsForm";
             this.Load += new System.EventHandler(this.LevelOptionsForm_Load);
-<<<<<<< HEAD
-=======
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,13 +191,9 @@ namespace LearningGame1
         private System.Windows.Forms.Button dBtn;
         private System.Windows.Forms.Button nBtn;
         private System.Windows.Forms.Button goBackBtn;
-<<<<<<< HEAD
+
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Button btnQuiz;
-=======
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
->>>>>>> c815318cd325c1edc6dfac63c7e31e4a283efefe
+
     }
 }

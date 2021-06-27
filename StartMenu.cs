@@ -18,17 +18,17 @@ namespace LearningGame1
         {
 
         }
+        
 
-        private void btnSelect_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
             this.Hide();
             LevelOptionsForm levelOptionCaller = new LevelOptionsForm();
             levelOptionCaller.ShowDialog();
             this.Close();
-            
         }
-        private void button1_Click(object sender, EventArgs e)
+
+        private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
             HelpForm helpCaller = new HelpForm();
@@ -36,11 +36,9 @@ namespace LearningGame1
             this.Close();
         }
 
-        private void exitBtn_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-        
     }
 }

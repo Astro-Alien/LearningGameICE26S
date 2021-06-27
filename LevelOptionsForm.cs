@@ -20,30 +20,6 @@ namespace LearningGame1
 
         }
 
-        private void goBackBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            StartMenu startCaller = new StartMenu();
-            startCaller.ShowDialog();
-            this.Close();
-        }
-
-        private void dBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Days daysCaller = new Days();
-            daysCaller.ShowDialog();
-            this.Close();
-        }
-
-        private void nBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Numbers numbersCaller = new Numbers();
-            numbersCaller.ShowDialog();
-            this.Close();
-        }
-
         private void aBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -52,12 +28,19 @@ namespace LearningGame1
             this.Close();
         }
 
-
-        private void btnTest_Click(object sender, EventArgs e)
+        private void nBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            TestForm testCaller = new TestForm();
-            testCaller.ShowDialog();
+            Numbers numberCaller = new Numbers();
+            numberCaller.ShowDialog();
+            this.Close();
+        }
+
+        private void dBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Days dayCaller = new Days();
+            dayCaller.ShowDialog();
             this.Close();
         }
 
@@ -69,5 +52,20 @@ namespace LearningGame1
             this.Close();
         }
 
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TestForm testCaller = new TestForm();
+            testCaller.ShowDialog();
+            this.Close();
+        }
+
+        private void goBackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StartMenu startCaller = new StartMenu();
+            startCaller.ShowDialog();
+            this.Close();
+        }
     }
 }
