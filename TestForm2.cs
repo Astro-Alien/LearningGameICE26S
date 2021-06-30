@@ -16,19 +16,17 @@ namespace LearningGame1
         private static string pointSaveQ = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScoreQuiz.txt";
         private static string[] valueQ = File.ReadAllLines(pointSaveQ);
 
-
         private static string pointSaveQM = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesQuiz.txt";
         private static string[] valueQM = File.ReadAllLines(pointSaveQM);
 
         private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesQuiz.txt";
         private static string[] valueMistake = File.ReadAllLines(pointMistakes);
 
-      
         public TestForm2()
         {
             InitializeComponent();
 
-            
+
             lblScore.Text = valueQ[0];
             //converting the array value to an integer
 
@@ -381,7 +379,7 @@ namespace LearningGame1
 
         private void PointSystemMatches()
         {
-            
+
 
             int a = int.Parse(valueQ[0]);
 
@@ -415,7 +413,7 @@ namespace LearningGame1
         private void PointSystemDoesNotMatch()
         {
 
-          
+
 
             int b = int.Parse(valueQM[0]);
 
@@ -456,7 +454,7 @@ namespace LearningGame1
         }
         private void resetToNewQuestion()
         {
-           
+
 
             int a = int.Parse(valueQ[0]);
 
@@ -575,7 +573,7 @@ namespace LearningGame1
         }
         private void GameOver()
         {
-           
+
             valueMistake[0] = "0";
             File.WriteAllLines(pointMistakes, valueMistake);
             MessageBox.Show("                  ***YOU HAVE FAILED THIS QUESTION***\n   ***THE QUESTION WILL RESET WHEN YOU CLICK ON OK***");

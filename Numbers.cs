@@ -89,6 +89,7 @@ namespace LearningGame1
             valueM[0] = res1;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res1;
+
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(497, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -978,8 +979,7 @@ namespace LearningGame1
             resetToNewQuestion();
         }
 
-
-        private void submitBtn_Click_1(object sender, EventArgs e)
+        private void submitBtn_Click(object sender, EventArgs e)
         {
             //converting the array value to an integer
             a = int.Parse(value[0]);
@@ -1026,6 +1026,14 @@ namespace LearningGame1
 
             }
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LevelOptionsForm levelsCaller = new LevelOptionsForm();
+            levelsCaller.ShowDialog();
+            this.Close();
+
+        }
 
         private void playBtn_Click(object sender, EventArgs e)
         {
@@ -1069,15 +1077,6 @@ namespace LearningGame1
                     MessageBox.Show("It is done");
                     break;
             }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            LevelOptionsForm levelsCaller = new LevelOptionsForm();
-            levelsCaller.ShowDialog();
-            this.Close();
-
         }
     }
 }

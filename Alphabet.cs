@@ -131,6 +131,7 @@ namespace LearningGame1
         //--------------------------------------------------------------Level methods where the position of the textboxes and text values are set
         private void LevelOne()
         {
+            submitBtn.Focus();
             a = 0;
             String res = a.ToString();
             valueM[0] = res;
@@ -2575,12 +2576,9 @@ namespace LearningGame1
             resetToNewQuestion();
         }
 
+       
 
-    
-
- 
-
-        private void submitBtn_Click_1(object sender, EventArgs e)
+        private void submitBtn_Click(object sender, EventArgs e)
         {
             //converting the array value to an integer
             a = int.Parse(value[0]);

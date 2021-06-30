@@ -45,7 +45,7 @@ namespace LearningGame1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(290, 23);
+            this.label1.Location = new System.Drawing.Point(331, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(270, 45);
             this.label1.TabIndex = 0;
@@ -88,7 +88,7 @@ namespace LearningGame1
             this.aBtn.Size = new System.Drawing.Size(166, 155);
             this.aBtn.TabIndex = 4;
             this.aBtn.Text = "Alphabet";
-            this.aBtn.UseVisualStyleBackColor = true;
+            this.aBtn.UseVisualStyleBackColor = false;
             this.aBtn.Click += new System.EventHandler(this.aBtn_Click);
             // 
             // dBtn
@@ -101,7 +101,7 @@ namespace LearningGame1
             this.dBtn.Size = new System.Drawing.Size(166, 155);
             this.dBtn.TabIndex = 5;
             this.dBtn.Text = "Days of the week";
-            this.dBtn.UseVisualStyleBackColor = true;
+            this.dBtn.UseVisualStyleBackColor = false;
             this.dBtn.Click += new System.EventHandler(this.dBtn_Click);
             // 
             // nBtn
@@ -114,7 +114,7 @@ namespace LearningGame1
             this.nBtn.Size = new System.Drawing.Size(166, 155);
             this.nBtn.TabIndex = 6;
             this.nBtn.Text = "Numbers";
-            this.nBtn.UseVisualStyleBackColor = true;
+            this.nBtn.UseVisualStyleBackColor = false;
             this.nBtn.Click += new System.EventHandler(this.nBtn_Click);
             // 
             // goBackBtn
@@ -127,7 +127,7 @@ namespace LearningGame1
             this.goBackBtn.Size = new System.Drawing.Size(270, 83);
             this.goBackBtn.TabIndex = 7;
             this.goBackBtn.Text = "Go Back";
-            this.goBackBtn.UseVisualStyleBackColor = true;
+            this.goBackBtn.UseVisualStyleBackColor = false;
             this.goBackBtn.Click += new System.EventHandler(this.goBackBtn_Click);
             // 
             // btnTest
@@ -191,9 +191,7 @@ namespace LearningGame1
         private System.Windows.Forms.Button dBtn;
         private System.Windows.Forms.Button nBtn;
         private System.Windows.Forms.Button goBackBtn;
-
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Button btnQuiz;
-
     }
 }
