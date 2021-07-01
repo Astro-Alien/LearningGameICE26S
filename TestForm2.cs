@@ -584,7 +584,7 @@ namespace LearningGame1
         }
         private void TestForm2_Load(object sender, EventArgs e)
         {
-
+            //empty space
         }
         private void pAnswer_Click(object sender, EventArgs e)
         {
