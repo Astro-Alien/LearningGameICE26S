@@ -14,75 +14,75 @@ namespace LearningGame1
 {
     public partial class Alphabet : Form
     {
-        private static string pointSave = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScoreAlphabet.txt";
+        private static string pointSave = @"Files\SavedScoreAlphabet.txt";
         private string[] value = File.ReadAllLines(pointSave);
 
-        private static string pointSaveM = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesAlphabet.txt";
+        private static string pointSaveM = @"Files\MistakesAlphabet.txt";
         private string[] valueM = File.ReadAllLines(pointSaveM);
 
-        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesAlphabet.txt";
+        private static string pointMistakes = @"Files\MistakesAlphabet.txt";
         private string[] valueMistake = File.ReadAllLines(pointMistakes);
 
         private int a = 0;
 
 
-        private System.Media.SoundPlayer hint1 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint2 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint3 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint4 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint5 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint6 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint7 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint8 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint9 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint10 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint11 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint12 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint13 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint14 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint15 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint16 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint17 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint18 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint19 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint20 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint21 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint22 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint23 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint24 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint25 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint26 = new System.Media.SoundPlayer();
+        private SoundPlayer hint1 = new SoundPlayer();
+        private SoundPlayer hint2 = new SoundPlayer();
+        private SoundPlayer hint3 = new SoundPlayer();
+        private SoundPlayer hint4 = new SoundPlayer();
+        private SoundPlayer hint5 = new SoundPlayer();
+        private SoundPlayer hint6 = new SoundPlayer();
+        private SoundPlayer hint7 = new SoundPlayer();
+        private SoundPlayer hint8 = new SoundPlayer();
+        private SoundPlayer hint9 = new SoundPlayer();
+        private SoundPlayer hint10 = new SoundPlayer();
+        private SoundPlayer hint11 = new SoundPlayer();
+        private SoundPlayer hint12 = new SoundPlayer();
+        private SoundPlayer hint13 = new SoundPlayer();
+        private SoundPlayer hint14 = new SoundPlayer();
+        private SoundPlayer hint15 = new SoundPlayer();
+        private SoundPlayer hint16 = new SoundPlayer();
+        private SoundPlayer hint17 = new SoundPlayer();
+        private SoundPlayer hint18 = new SoundPlayer();
+        private SoundPlayer hint19 = new SoundPlayer();
+        private SoundPlayer hint20 = new SoundPlayer();
+        private SoundPlayer hint21 = new SoundPlayer();
+        private SoundPlayer hint22 = new SoundPlayer();
+        private SoundPlayer hint23 = new SoundPlayer();
+        private SoundPlayer hint24 = new SoundPlayer();
+        private SoundPlayer hint25 = new SoundPlayer();
+        private SoundPlayer hint26 = new SoundPlayer();
 
         public Alphabet()
         {
             InitializeComponent();
 
-            hint1.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\arm.wav";
-            hint2.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\bus.wav";
-            hint3.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\coke.wav";
-            hint4.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\dam.wav";
-            hint5.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\eier.wav";
-            hint6.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\fiets.wav";
-            hint7.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\gans.wav";
-            hint8.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\hond.wav";
-            hint9.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\ink.wav";
-            hint10.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\jas.wav";
-            hint11.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\kat.wav";
-            hint12.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\leeu.wav";
-            hint13.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\melk.wav";
-            hint14.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\nes.wav";
-            hint15.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\olie.wav";
-            hint16.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\pen.wav";
-            hint17.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\queen.wav";
-            hint18.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\reen.wav";
-            hint19.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\ster.wav";
-            hint20.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\tuin.wav";
-            hint21.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\uil.wav";
-            hint22.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\vark.wav";
-            hint23.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\wurm.wav";
-            hint24.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\xiolofoon.wav";
-            hint25.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\ys.wav";
-            hint26.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundAlphabet\zoeloe.wav";
+            hint1.SoundLocation = @"soundAlphabet\arm.wav";
+            hint2.SoundLocation = @"soundAlphabet\bus.wav";
+            hint3.SoundLocation = @"soundAlphabet\coke.wav";
+            hint4.SoundLocation = @"soundAlphabet\dam.wav";
+            hint5.SoundLocation = @"soundAlphabet\eier.wav";
+            hint6.SoundLocation = @"soundAlphabet\fiets.wav";
+            hint7.SoundLocation = @"soundAlphabet\gans.wav";
+            hint8.SoundLocation = @"soundAlphabet\hond.wav";
+            hint9.SoundLocation = @"soundAlphabet\ink.wav";
+            hint10.SoundLocation = @"soundAlphabet\jas.wav";
+            hint11.SoundLocation = @"soundAlphabet\kat.wav";
+            hint12.SoundLocation = @"soundAlphabet\leeu.wav";
+            hint13.SoundLocation = @"soundAlphabet\melk.wav";
+            hint14.SoundLocation = @"soundAlphabet\nes.wav";
+            hint15.SoundLocation = @"soundAlphabet\olie.wav";
+            hint16.SoundLocation = @"soundAlphabet\pen.wav";
+            hint17.SoundLocation = @"soundAlphabet\queen.wav";
+            hint18.SoundLocation = @"soundAlphabet\reen.wav";
+            hint19.SoundLocation = @"soundAlphabet\ster.wav";
+            hint20.SoundLocation = @"soundAlphabet\tuin.wav";
+            hint21.SoundLocation = @"soundAlphabet\uil.wav";
+            hint22.SoundLocation = @"soundAlphabet\vark.wav";
+            hint23.SoundLocation = @"soundAlphabet\wurm.wav";
+            hint24.SoundLocation = @"soundAlphabet\xiolofoon.wav";
+            hint25.SoundLocation = @"soundAlphabet\ys.wav";
+            hint26.SoundLocation = @"soundAlphabet\zoeloe.wav";
 
         }
 
@@ -171,7 +171,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\a.jpg";
+            pBox1.ImageLocation = @"images\a.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwo()
@@ -215,7 +215,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\b.jpg";
+            pBox1.ImageLocation = @"images\b.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelThree()
@@ -265,7 +265,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\c.jpg";
+            pBox1.ImageLocation = @"images\c.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -313,7 +313,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\D.jpg";
+            pBox1.ImageLocation = @"images\D.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFive()
@@ -363,7 +363,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\e.jpg";
+            pBox1.ImageLocation = @"images\e.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -418,7 +418,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\f.jpg";
+            pBox1.ImageLocation = @"images\f.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -472,7 +472,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\g.jpg";
+            pBox1.ImageLocation = @"images\g.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -526,7 +526,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\h.jpg";
+            pBox1.ImageLocation = @"images\h.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -574,7 +574,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\i.jpg";
+            pBox1.ImageLocation = @"images\i.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTen()
@@ -618,7 +618,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\j.jpg";
+            pBox1.ImageLocation = @"images\j.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelEleven()
@@ -662,7 +662,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\k.jpg";
+            pBox1.ImageLocation = @"images\k.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwelve()
@@ -712,7 +712,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\l.jpg";
+            pBox1.ImageLocation = @"images\l.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -765,7 +765,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\M.jpg";
+            pBox1.ImageLocation = @"images\M.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -813,7 +813,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\n.jpg";
+            pBox1.ImageLocation = @"images\n.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFifteen()
@@ -863,7 +863,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\o.jpg";
+            pBox1.ImageLocation = @"images\o.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -911,7 +911,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\p.jpg";
+            pBox1.ImageLocation = @"images\p.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelSeventeen()
@@ -962,7 +962,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\q.jpg";
+            pBox1.ImageLocation = @"images\q.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1016,7 +1016,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\r.jpg";
+            pBox1.ImageLocation = @"images\r.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1070,7 +1070,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\S.jpg";
+            pBox1.ImageLocation = @"images\S.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1124,7 +1124,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\t.jpg";
+            pBox1.ImageLocation = @"images\t.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1172,7 +1172,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\u.jpg";
+            pBox1.ImageLocation = @"images\u.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwentytwo()
@@ -1222,7 +1222,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\V.jpg";
+            pBox1.ImageLocation = @"images\V.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1276,7 +1276,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\W.jpg";
+            pBox1.ImageLocation = @"images\W.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1338,7 +1338,7 @@ namespace LearningGame1
             letter8.ForeColor = Color.White;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\x.jpg";
+            pBox1.ImageLocation = @"images\x.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -1386,7 +1386,7 @@ namespace LearningGame1
 
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\y.jpg";
+            pBox1.ImageLocation = @"images\y.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelTwentysix()
@@ -1438,7 +1438,7 @@ namespace LearningGame1
             letter8.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\z.jpg";
+            pBox1.ImageLocation = @"images\z.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 

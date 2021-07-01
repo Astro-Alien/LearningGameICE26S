@@ -129,10 +129,10 @@ namespace LearningGame1
             // guessTheWordsLbl
             // 
             this.guessTheWordsLbl.AutoSize = true;
-            this.guessTheWordsLbl.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guessTheWordsLbl.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guessTheWordsLbl.Location = new System.Drawing.Point(644, 149);
             this.guessTheWordsLbl.Name = "guessTheWordsLbl";
-            this.guessTheWordsLbl.Size = new System.Drawing.Size(598, 38);
+            this.guessTheWordsLbl.Size = new System.Drawing.Size(634, 38);
             this.guessTheWordsLbl.TabIndex = 15;
             this.guessTheWordsLbl.Text = "Guess the correct letters to complete the word:";
             // 
