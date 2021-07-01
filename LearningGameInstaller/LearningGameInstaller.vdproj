@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_8B39DA5FBB29483EBBFFF4DCB71E746B"
+        "MsmKey" = "8:_4E7ADC9BE34C4361A7789476962CF69F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -68,6 +68,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -157,7 +165,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LearningGameInstaller"
         "ProductCode" = "8:{7EEE7F9D-4B45-4B4F-A7D2-E30974F40614}"
-        "PackageCode" = "8:{CF259C09-18A6-43C4-A8C1-6777FE113489}"
+        "PackageCode" = "8:{E24751F2-FE85-47F3-9A0D-43C110F54EBE}"
         "UpgradeCode" = "8:{77FE5ABB-AA89-4859-A631-037F3245BCE7}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -277,7 +285,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4B5CD9DB0DCF4AB99748C3F55094D059"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B07C1A55EEE143EC802687D3BCC45C68"
             {
             "Name" = "8:Shortcut to Publish Items from LearningGame1 (Release Any CPU)"
             "Arguments" = "8:"
@@ -285,21 +293,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_8B39DA5FBB29483EBBFFF4DCB71E746B"
-            "Folder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
-            "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6012030DC384431C81509A3C1367DD70"
-            {
-            "Name" = "8:Shortcut to LearningGameInstaller"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_8B39DA5FBB29483EBBFFF4DCB71E746B"
+            "Target" = "8:_4E7ADC9BE34C4361A7789476962CF69F"
             "Folder" = "8:_F839E00A817546539777B88D172E15E3"
             "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
             "Icon" = "8:"
@@ -704,7 +698,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8B39DA5FBB29483EBBFFF4DCB71E746B"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4E7ADC9BE34C4361A7789476962CF69F"
             {
             "SourcePath" = "8:..\\obj\\Release\\netcoreapp3.1\\apphost.exe"
             "TargetName" = "8:"
