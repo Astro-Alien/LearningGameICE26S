@@ -13,12 +13,6 @@
 "SccProvider" = "8:"
     "Hierarchy"
     {
-        "Entry"
-        {
-        "MsmKey" = "8:_4E7ADC9BE34C4361A7789476962CF69F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
     }
     "Configurations"
     {
@@ -44,6 +38,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -293,7 +295,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_4E7ADC9BE34C4361A7789476962CF69F"
+            "Target" = "8:"
             "Folder" = "8:_F839E00A817546539777B88D172E15E3"
             "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
             "Icon" = "8:"
@@ -698,9 +700,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4E7ADC9BE34C4361A7789476962CF69F"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F9FF13E05BC24856B7C01F2F763AC0B9"
             {
-            "SourcePath" = "8:..\\obj\\Release\\netcoreapp3.1\\apphost.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
@@ -718,7 +720,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
+            "OutputConfiguration" = "8:Debug|Any CPU"
             "OutputGroupCanonicalName" = "8:PublishItems"
             "OutputProjectGuid" = "8:{940B0858-9B10-4769-9D03-460910CAF1B1}"
             "ShowKeyOutput" = "11:TRUE"
