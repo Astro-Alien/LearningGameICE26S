@@ -27,7 +27,6 @@ C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\bin\Release\netc
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\bin\Release\netcoreapp3.1\LearningGame1.runtimeconfig.dev.json
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\bin\Release\netcoreapp3.1\LearningGame1.dll
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\bin\Release\netcoreapp3.1\LearningGame1.pdb
-C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.csprojAssemblyReference.cache
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.Alphabet.resources
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.Days.resources
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.HelpForm.resources
