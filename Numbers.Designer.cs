@@ -29,6 +29,7 @@ namespace LearningGame1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Numbers));
             this.pointsLbl = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
             this.mistakesLbl = new System.Windows.Forms.Label();
@@ -301,6 +302,7 @@ namespace LearningGame1
             this.Controls.Add(this.pBox1);
             this.Controls.Add(this.guessTheWordsLbl);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Numbers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

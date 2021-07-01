@@ -29,6 +29,7 @@ namespace LearningGame1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HelpForm));
             this.helpRTBox = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.goBackBtn = new System.Windows.Forms.Button();
@@ -77,6 +78,7 @@ namespace LearningGame1
             this.Controls.Add(this.goBackBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.helpRTBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "HelpForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

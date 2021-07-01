@@ -37,13 +37,13 @@ namespace LearningGame1
         public Days()
         {
             InitializeComponent();
-            hint1.SoundLocation = @"soundDaysoftheweek\Maandag.wav";
-            hint2.SoundLocation = @"soundDaysoftheweek\dinsdag.wav";
-            hint3.SoundLocation = @"soundDaysoftheweek\Woensdag.wav";
-            hint4.SoundLocation = @"soundDaysoftheweek\Donderdag.wav";
-            hint5.SoundLocation = @"soundDaysoftheweek\Vrydag.wav";
-            hint6.SoundLocation = @"soundDaysoftheweek\Saterdag.wav";
-            hint7.SoundLocation = @"soundDaysoftheweek\Sondag.wav";
+            hint1.SoundLocation = @"soundDays\Maandag.wav";
+            hint2.SoundLocation = @"soundDays\dinsdag.wav";
+            hint3.SoundLocation = @"soundDays\Woensdag.wav";
+            hint4.SoundLocation = @"soundDays\Donderdag.wav";
+            hint5.SoundLocation = @"soundDays\Vrydag.wav";
+            hint6.SoundLocation = @"soundDays\Saterdag.wav";
+            hint7.SoundLocation = @"soundDays\Sondag.wav";
         }
 
         private void letter1_TextChanged(object sender, EventArgs e)
