@@ -1,0 +1,69 @@
+C:\Users\Charles\Downloads\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.exe
+C:\Users\Charles\Downloads\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.deps.json
+C:\Users\Charles\Downloads\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.json
+C:\Users\Charles\Downloads\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.dev.json
+C:\Users\Charles\Downloads\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.dll
+C:\Users\Charles\Downloads\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.pdb
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csprojAssemblyReference.cache
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Alphabet.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Days.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.HelpForm.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.LevelOptionsForm.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Numbers.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Splash.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.StartMenu.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm2.resources
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.GenerateResource.cache
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfoInputs.cache
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfo.cs
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.CoreCompileInputs.cache
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.dll
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.pdb
+C:\Users\Charles\Downloads\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.genruntimeconfig.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.exe
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.deps.json
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.json
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.dev.json
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.dll
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.pdb
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csprojAssemblyReference.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Alphabet.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Days.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.HelpForm.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.LevelOptionsForm.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Numbers.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Splash.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.StartMenu.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm2.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.GenerateResource.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfoInputs.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfo.cs
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.CoreCompileInputs.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.dll
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.pdb
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.genruntimeconfig.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.exe
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.deps.json
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.json
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.dev.json
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.dll
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.pdb
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csprojAssemblyReference.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Alphabet.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Days.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.HelpForm.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.LevelOptionsForm.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Numbers.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Splash.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.StartMenu.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm2.resources
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.GenerateResource.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfoInputs.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfo.cs
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.CoreCompileInputs.cache
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.dll
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.pdb
+D:\Class work\CPUT Subjects Year 2\Elective 2 Game Development\New folder\Final draft\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.genruntimeconfig.cache
