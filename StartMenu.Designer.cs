@@ -97,7 +97,7 @@ namespace LearningGame1
             this.MinimizeBox = false;
             this.Name = "StartMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StartMenu";
+            this.Text = "Menu";
             this.Load += new System.EventHandler(this.StartMenu_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

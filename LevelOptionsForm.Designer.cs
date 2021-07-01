@@ -44,10 +44,10 @@ namespace LearningGame1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(331, 23);
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(310, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 45);
+            this.label1.Size = new System.Drawing.Size(286, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Learning Options";
             // 
@@ -82,7 +82,7 @@ namespace LearningGame1
             // 
             this.aBtn.BackColor = System.Drawing.Color.LightSteelBlue;
             this.aBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.aBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.aBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.aBtn.Location = new System.Drawing.Point(82, 152);
             this.aBtn.Name = "aBtn";
             this.aBtn.Size = new System.Drawing.Size(166, 155);
@@ -95,7 +95,7 @@ namespace LearningGame1
             // 
             this.dBtn.BackColor = System.Drawing.Color.LightSalmon;
             this.dBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dBtn.Location = new System.Drawing.Point(652, 152);
             this.dBtn.Name = "dBtn";
             this.dBtn.Size = new System.Drawing.Size(166, 155);
@@ -108,7 +108,7 @@ namespace LearningGame1
             // 
             this.nBtn.BackColor = System.Drawing.Color.YellowGreen;
             this.nBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nBtn.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nBtn.Location = new System.Drawing.Point(371, 152);
             this.nBtn.Name = "nBtn";
             this.nBtn.Size = new System.Drawing.Size(166, 155);
@@ -132,9 +132,9 @@ namespace LearningGame1
             // 
             // btnTest
             // 
-            this.btnTest.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnTest.BackColor = System.Drawing.Color.Orange;
             this.btnTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTest.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTest.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTest.Location = new System.Drawing.Point(509, 355);
             this.btnTest.Name = "btnTest";
             this.btnTest.Size = new System.Drawing.Size(166, 155);
@@ -145,9 +145,9 @@ namespace LearningGame1
             // 
             // btnQuiz
             // 
-            this.btnQuiz.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnQuiz.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnQuiz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuiz.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnQuiz.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnQuiz.Location = new System.Drawing.Point(227, 355);
             this.btnQuiz.Name = "btnQuiz";
             this.btnQuiz.Size = new System.Drawing.Size(166, 155);
@@ -174,7 +174,7 @@ namespace LearningGame1
             this.Controls.Add(this.label1);
             this.Name = "LevelOptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LevelOptionsForm";
+            this.Text = "Level Option";
             this.Load += new System.EventHandler(this.LevelOptionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -13,13 +13,13 @@ namespace LearningGame1
 {
     public partial class TestForm : Form
     {
-        private static string pointSave = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScoreTest.txt";
+        private static string pointSave = @"Files\SavedScoreTest.txt";
         private static string[] value = File.ReadAllLines(pointSave);
 
-        private static string pointSaveM = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesTest.txt";
+        private static string pointSaveM = @"Files\MistakesTest.txt";
         private static string[] valueM = File.ReadAllLines(pointSaveM);
 
-        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesTest.txt";
+        private static string pointMistakes = @"Files\MistakesTest.txt";
         private static string[] valueMistake = File.ReadAllLines(pointMistakes);
         public TestForm()
         {
@@ -58,42 +58,44 @@ namespace LearningGame1
 
         private void LevelOne()
         {
+            btnBack.Focus();
             int a = 0;
             String res1 = a.ToString();
             valueM[0] = res1;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res1;
-            btnBack.Focus();
+            
             lblWord.Text = "APPEL";
             lblWord.Location = new Point(410, 100);
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\apples.jpg";
+            p1.ImageLocation = @"Fruit Images\apples.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\orange.jpg";
+            p2.ImageLocation = @"Fruit Images\orange.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\grapes.jpg";
+            p3.ImageLocation = @"Fruit Images\grapes.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
         private void LevelTwo()
         {
+            btnBack.Focus();
             int a = 0;
             String res1 = a.ToString();
             valueM[0] = res1;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res1;
 
-            btnBack.Focus();
+           
             lblWord.Text = "PEN";
             lblWord.Location = new Point(424, 106);
             btnAnswerOne.Location = new Point(672, 434);
             btnAnswerOne.Text = "C";
             btnAnswerThree.Location = new Point(73, 434);
             btnAnswerThree.Text = "A";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\pencil.jpg";
+            p1.ImageLocation = @"Fruit Images\pencil.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\marker.jpg";
+            p2.ImageLocation = @"Fruit Images\marker.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\pen.jpg";
+            p3.ImageLocation = @"Fruit Images\pen.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -114,11 +116,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "A";
             btnAnswerThree.Location = new Point(672, 434);
             btnAnswerThree.Text = "C";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\car.jpg";
+            p1.ImageLocation = @"Fruit Images\car.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\bus.jpg";
+            p2.ImageLocation = @"Fruit Images\bus.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\bike.jpg";
+            p3.ImageLocation = @"Fruit Images\bike.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -139,11 +141,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "B";
             btnAnswerThree.Location = new Point(672, 434);
             btnAnswerThree.Text = "C";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\dog.jpg";
+            p1.ImageLocation = @"Fruit Images\dog.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\rabbit.jpg";
+            p2.ImageLocation = @"Fruit Images\rabbit.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\cat.jpg";
+            p3.ImageLocation = @"Fruit Images\cat.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -164,11 +166,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "B";
             btnAnswerThree.Location = new Point(73, 434);
             btnAnswerThree.Text = "A";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\glass.jpg";
+            p1.ImageLocation = @"Fruit Images\glass.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\crystal.jpg";
+            p2.ImageLocation = @"Fruit Images\crystal.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\ice.jpg";
+            p3.ImageLocation = @"Fruit Images\ice.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -189,11 +191,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "B";
             btnAnswerThree.Location = new Point(73, 434);
             btnAnswerThree.Text = "A";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\water.jpg";
+            p1.ImageLocation = @"Fruit Images\water.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\juice.jpg";
+            p2.ImageLocation = @"Fruit Images\juice.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\milk.jpg";
+            p3.ImageLocation = @"Fruit Images\milk.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -214,11 +216,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "A";
             btnAnswerThree.Location = new Point(73, 434);
             btnAnswerThree.Text = "C";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\pigeon.jpg";
+            p1.ImageLocation = @"Fruit Images\pigeon.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\owl.jpg";
+            p2.ImageLocation = @"Fruit Images\owl.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\eagle.jpg";
+            p3.ImageLocation = @"Fruit Images\eagle.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -239,11 +241,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "B";
             btnAnswerThree.Location = new Point(73, 434);
             btnAnswerThree.Text = "A";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\river.jpg";
+            p1.ImageLocation = @"Fruit Images\river.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\ocean.jpg";
+            p2.ImageLocation = @"Fruit Images\ocean.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\Dam.jpg";
+            p3.ImageLocation = @"Fruit Images\Dam.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -264,11 +266,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "A";
             btnAnswerThree.Location = new Point(672, 434);
             btnAnswerThree.Text = "C";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\golf.jpg";
+            p1.ImageLocation = @"Fruit Images\golf.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\egg.jpg";
+            p2.ImageLocation = @"Fruit Images\egg.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\ball.jpg";
+            p3.ImageLocation = @"Fruit Images\ball.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -289,11 +291,11 @@ namespace LearningGame1
             btnAnswerTwo.Text = "B";
             btnAnswerThree.Location = new Point(672, 434);
             btnAnswerThree.Text = "C";
-            p1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\bicycle.jpg";
+            p1.ImageLocation = @"Fruit Images\bicycle.jpg";
             p1.SizeMode = PictureBoxSizeMode.CenterImage;
-            p2.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\skateboard.jpg";
+            p2.ImageLocation = @"Fruit Images\skateboard.jpg";
             p2.SizeMode = PictureBoxSizeMode.CenterImage;
-            p3.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Fruit Images\rollerblade.jpg";
+            p3.ImageLocation = @"Fruit Images\rollerblade.jpg";
             p3.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -307,7 +309,7 @@ namespace LearningGame1
             {
 
                 case 0:
-
+                  
                     valueMistake[0] = "0";
                     File.WriteAllLines(pointMistakes, valueMistake);
                     lblMistakes.Text = valueMistake[0];

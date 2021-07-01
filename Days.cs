@@ -14,36 +14,36 @@ namespace LearningGame1
 {
     public partial class Days : Form
     {
-        private static string pointSave = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScore.txt";
+        private static string pointSave = @"Files\SavedScore.txt";
         private string[] value = File.ReadAllLines(pointSave);
 
-        private static string pointSaveM = @"C:\Users\Charles\Downloads\LearningGameICE26S\Mistakes.txt";
+        private static string pointSaveM = @"Files\Mistakes.txt";
         private string[] valueM = File.ReadAllLines(pointSaveM);
 
-        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\Mistakes.txt";
+        private static string pointMistakes = @"Files\Mistakes.txt";
         private string[] valueMistake = File.ReadAllLines(pointMistakes);
 
 
 
 
-        private System.Media.SoundPlayer hint1 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint2 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint3 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint4 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint5 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint6 = new System.Media.SoundPlayer();
-        private System.Media.SoundPlayer hint7 = new System.Media.SoundPlayer();
+        private SoundPlayer hint1 = new SoundPlayer();
+        private SoundPlayer hint2 = new SoundPlayer();
+        private SoundPlayer hint3 = new SoundPlayer();
+        private SoundPlayer hint4 = new SoundPlayer();
+        private SoundPlayer hint5 = new SoundPlayer();
+        private SoundPlayer hint6 = new SoundPlayer();
+        private SoundPlayer hint7 = new SoundPlayer();
 
         public Days()
         {
             InitializeComponent();
-            hint1.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Maandag.wav";
-            hint2.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\dinsdag.wav";
-            hint3.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Woensdag.wav";
-            hint4.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Donderdag.wav";
-            hint5.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Vrydag.wav";
-            hint6.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Saterdag.wav";
-            hint7.SoundLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\soundDaysoftheweek\Sondag.wav";
+            hint1.SoundLocation = @"soundDaysoftheweek\Maandag.wav";
+            hint2.SoundLocation = @"soundDaysoftheweek\dinsdag.wav";
+            hint3.SoundLocation = @"soundDaysoftheweek\Woensdag.wav";
+            hint4.SoundLocation = @"soundDaysoftheweek\Donderdag.wav";
+            hint5.SoundLocation = @"soundDaysoftheweek\Vrydag.wav";
+            hint6.SoundLocation = @"soundDaysoftheweek\Saterdag.wav";
+            hint7.SoundLocation = @"soundDaysoftheweek\Sondag.wav";
         }
 
         private void letter1_TextChanged(object sender, EventArgs e)
@@ -67,6 +67,7 @@ namespace LearningGame1
                 case 4:
                 case 5:
                 case 6:
+                   
                     resetToNewQuestion();
                     break;
                 default:
@@ -83,11 +84,13 @@ namespace LearningGame1
         //--------------------------------------------------------------Level methods where the position of the textboxes and text values are set
         private void LevelOne()
         {
+            
             int a = 0;
             String res1 = a.ToString();
             valueM[0] = res1;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res1;
+            
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(534, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -125,7 +128,7 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\M.jpg";
+            pBox1.ImageLocation = @"images\M.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
 
@@ -138,7 +141,7 @@ namespace LearningGame1
             valueM[0] = res2;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res2;
-
+        
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(534, 131);
             hintGroupBox.Location = new Point(698, 211);
@@ -177,7 +180,7 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\D.jpg";
+            pBox1.ImageLocation = @"images\D.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -188,7 +191,7 @@ namespace LearningGame1
             valueM[0] = res3;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res3;
-
+            
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(609, 131);
             hintGroupBox.Location = new Point(646, 208);
@@ -228,7 +231,7 @@ namespace LearningGame1
             letter9.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\W.jpg";
+            pBox1.ImageLocation = @"images\W.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelFour()
@@ -238,7 +241,7 @@ namespace LearningGame1
             valueM[0] = res4;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res4;
-
+           
             //adjusting the size and position of the group boxes
             hintGroupBox.Size = new Size(691, 131);
             hintGroupBox.Location = new Point(597, 210);
@@ -279,7 +282,7 @@ namespace LearningGame1
             letter9.Text = "G";
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\D1.jfif";
+            pBox1.ImageLocation = @"images\D1.jfif";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -290,7 +293,7 @@ namespace LearningGame1
             valueM[0] = res5;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res5;
-
+           
             //adjusting the size and position of the group boxes, textboxes
             hintGroupBox.Size = new Size(493, 131);
             hintGroupBox.Location = new Point(698, 210);
@@ -335,7 +338,7 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\V.jpg";
+            pBox1.ImageLocation = @"images\V.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }
@@ -346,7 +349,7 @@ namespace LearningGame1
             valueM[0] = res6;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res6;
-
+           
             //adjusting the size and position of the group boxes, textboxes
             hintGroupBox.Size = new Size(617, 131);
             hintGroupBox.Location = new Point(646, 208);
@@ -395,7 +398,7 @@ namespace LearningGame1
             letter9.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\S.jpg";
+            pBox1.ImageLocation = @"images\S.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
         }
         private void LevelSeven()
@@ -405,7 +408,7 @@ namespace LearningGame1
             valueM[0] = res7;
             File.WriteAllLines(pointSaveM, valueM);
             lblMistakes.Text = res7;
-
+            
             //adjusting the size and position of the group boxes, textboxes
             hintGroupBox.Size = new Size(493, 131);
             hintGroupBox.Location = new Point(698, 210);
@@ -450,7 +453,7 @@ namespace LearningGame1
             t6.Visible = false;
 
             //getting the image from it location and adding it to the picturebox
-            pBox1.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\images\S1.jpg";
+            pBox1.ImageLocation = @"images\S1.jpg";
             pBox1.SizeMode = PictureBoxSizeMode.CenterImage;
 
         }

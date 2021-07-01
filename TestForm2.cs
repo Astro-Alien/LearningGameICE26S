@@ -13,13 +13,13 @@ namespace LearningGame1
 {
     public partial class TestForm2 : Form
     {
-        private static string pointSaveQ = @"C:\Users\Charles\Downloads\LearningGameICE26S\SavedScoreQuiz.txt";
+        private static string pointSaveQ = @"Files\SavedScoreQuiz.txt";
         private static string[] valueQ = File.ReadAllLines(pointSaveQ);
 
-        private static string pointSaveQM = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesQuiz.txt";
+        private static string pointSaveQM = @"Files\MistakesQuiz.txt";
         private static string[] valueQM = File.ReadAllLines(pointSaveQM);
 
-        private static string pointMistakes = @"C:\Users\Charles\Downloads\LearningGameICE26S\MistakesQuiz.txt";
+        private static string pointMistakes = @"Files\MistakesQuiz.txt";
         private static string[] valueMistake = File.ReadAllLines(pointMistakes);
 
         public TestForm2()
@@ -62,7 +62,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\goose.jpg";
+            pAnswer.ImageLocation = @"Quiz images\goose.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
 
         }
         private void LevelTwo()
@@ -73,8 +74,8 @@ namespace LearningGame1
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
 
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\jas.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\jas.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelThree()
         {
@@ -83,8 +84,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\cat.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\cat.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelFour()
         {
@@ -93,8 +94,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\Lion.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\Lion.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelFive()
         {
@@ -103,8 +104,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\nest.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\nest.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelSix()
         {
@@ -113,8 +114,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\star.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\star.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelSeven()
         {
@@ -123,8 +124,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\garden.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\garden.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelEight()
         {
@@ -133,8 +134,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\Pig.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\Pig.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelNine()
         {
@@ -143,8 +144,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\worm.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\worm.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void LevelTen()
         {
@@ -153,8 +154,8 @@ namespace LearningGame1
             valueQM[0] = res1;
             File.WriteAllLines(pointSaveQM, valueQM);
             lblMistakes.Text = res1;
-            pAnswer.ImageLocation = @"C:\Users\Charles\Downloads\LearningGameICE26S\Quiz images\x.jpg";
-
+            pAnswer.ImageLocation = @"Quiz images\x.jpg";
+            txtAnswer.TextAlign = HorizontalAlignment.Center;
         }
         private void MatchUpOne()
         {

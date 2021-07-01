@@ -48,10 +48,10 @@ namespace LearningGame1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(277, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 41);
+            this.label1.Size = new System.Drawing.Size(197, 41);
             this.label1.TabIndex = 1;
             this.label1.Text = "How to play:";
             // 
@@ -80,7 +80,7 @@ namespace LearningGame1
             this.MaximizeBox = false;
             this.Name = "HelpForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HelpForm";
+            this.Text = "Help";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -107,10 +107,10 @@ namespace LearningGame1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(284, 169);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(433, 28);
+            this.label3.Size = new System.Drawing.Size(475, 28);
             this.label3.TabIndex = 15;
             this.label3.Text = "Choose the picture that fits the word description";
             // 
@@ -118,10 +118,10 @@ namespace LearningGame1
             // 
             this.lblWord.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblWord.AutoSize = true;
-            this.lblWord.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblWord.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblWord.Location = new System.Drawing.Point(434, 101);
             this.lblWord.Name = "lblWord";
-            this.lblWord.Size = new System.Drawing.Size(115, 54);
+            this.lblWord.Size = new System.Drawing.Size(123, 54);
             this.lblWord.TabIndex = 16;
             this.lblWord.Text = "FIETS";
             this.lblWord.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -152,40 +152,46 @@ namespace LearningGame1
             // 
             // btnAnswerOne
             // 
-            this.btnAnswerOne.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAnswerOne.BackColor = System.Drawing.Color.Wheat;
+            this.btnAnswerOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnswerOne.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAnswerOne.Location = new System.Drawing.Point(73, 434);
             this.btnAnswerOne.Name = "btnAnswerOne";
             this.btnAnswerOne.Size = new System.Drawing.Size(227, 47);
             this.btnAnswerOne.TabIndex = 21;
             this.btnAnswerOne.Text = "A";
-            this.btnAnswerOne.UseVisualStyleBackColor = true;
+            this.btnAnswerOne.UseVisualStyleBackColor = false;
             this.btnAnswerOne.Click += new System.EventHandler(this.btnAnswerOne_Click_1);
             // 
             // btnAnswerTwo
             // 
-            this.btnAnswerTwo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAnswerTwo.BackColor = System.Drawing.Color.Wheat;
+            this.btnAnswerTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnswerTwo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAnswerTwo.Location = new System.Drawing.Point(378, 434);
             this.btnAnswerTwo.Name = "btnAnswerTwo";
             this.btnAnswerTwo.Size = new System.Drawing.Size(227, 47);
             this.btnAnswerTwo.TabIndex = 22;
             this.btnAnswerTwo.Text = "B";
-            this.btnAnswerTwo.UseVisualStyleBackColor = true;
+            this.btnAnswerTwo.UseVisualStyleBackColor = false;
             this.btnAnswerTwo.Click += new System.EventHandler(this.btnAnswerTwo_Click_1);
             // 
             // btnAnswerThree
             // 
-            this.btnAnswerThree.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAnswerThree.BackColor = System.Drawing.Color.Wheat;
+            this.btnAnswerThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnswerThree.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAnswerThree.Location = new System.Drawing.Point(672, 434);
             this.btnAnswerThree.Name = "btnAnswerThree";
             this.btnAnswerThree.Size = new System.Drawing.Size(227, 47);
             this.btnAnswerThree.TabIndex = 23;
             this.btnAnswerThree.Text = "C";
-            this.btnAnswerThree.UseVisualStyleBackColor = true;
+            this.btnAnswerThree.UseVisualStyleBackColor = false;
             this.btnAnswerThree.Click += new System.EventHandler(this.btnAnswerThree_Click_1);
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.OldLace;
+            this.btnBack.BackColor = System.Drawing.Color.Wheat;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBack.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnBack.Location = new System.Drawing.Point(433, 510);
@@ -198,7 +204,7 @@ namespace LearningGame1
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.OldLace;
+            this.panel1.BackColor = System.Drawing.Color.Wheat;
             this.panel1.Controls.Add(this.lblScore);
             this.panel1.Controls.Add(this.pointsLbl);
             this.panel1.Location = new System.Drawing.Point(12, 9);
@@ -208,7 +214,7 @@ namespace LearningGame1
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.OldLace;
+            this.panel2.BackColor = System.Drawing.Color.Wheat;
             this.panel2.Controls.Add(this.mistakesLbl);
             this.panel2.Controls.Add(this.lblMistakes);
             this.panel2.Controls.Add(this.label4);
@@ -221,7 +227,7 @@ namespace LearningGame1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackColor = System.Drawing.Color.Orange;
             this.ClientSize = new System.Drawing.Size(998, 595);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnBack);
@@ -236,7 +242,7 @@ namespace LearningGame1
             this.Controls.Add(this.panel1);
             this.Name = "TestForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TestForm";
+            this.Text = "Matching";
             this.Load += new System.EventHandler(this.TestForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
