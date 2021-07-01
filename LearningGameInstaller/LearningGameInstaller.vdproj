@@ -63,6 +63,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_05DF42F482CF432ABD2FD566E6592141"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0844067890E843CA8A79913BBB01F5B6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -94,12 +100,6 @@
         "Entry"
         {
         "MsmKey" = "8:_0EC8E36D13E4467F85593253316D2866"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0F16B6CEF9124B778D4E805829E20123"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -171,6 +171,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_2F97A63D712744B18460C96472CB3A4E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_311B6C824790431AAD1DEA5AC5D66E6B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -214,12 +220,6 @@
         "Entry"
         {
         "MsmKey" = "8:_371B7F96EED6412BBCB8DF9EF4C071C8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_37A8F460E9104A9581EF8D4B4ADA08E4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -712,6 +712,12 @@
         "Entry"
         {
         "MsmKey" = "8:_CC498BEAD6F24DA7AC98FE516E01254C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D4271CEBBE274A449D4A4E22BBEF5690"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1424,6 +1430,26 @@
             "TargetName" = "8:juice.jpg"
             "Tag" = "8:"
             "Folder" = "8:_A53506C69F764BA7A1B002D73264C80E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F97A63D712744B18460C96472CB3A4E"
+            {
+            "SourcePath" = "8:..\\bin\\Release\\netcoreapp3.1\\Icon\\font-2111748_1920.ico"
+            "TargetName" = "8:font-2111748_1920.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_3002942F4631480CA91AE982B31AC6BC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3707,6 +3733,17 @@
                         {
                         }
                     }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_3002942F4631480CA91AE982B31AC6BC"
+                    {
+                    "Name" = "8:Icon"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_9F219C9846814D249D3AEA0D4635C3F6"
+                        "Folders"
+                        {
+                        }
+                    }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_53F50F53CBE740818ACC60EE3A3B54A5"
                     {
                     "Name" = "8:Quiz images"
@@ -3792,7 +3829,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Learning Game"
         "ProductCode" = "8:{7EEE7F9D-4B45-4B4F-A7D2-E30974F40614}"
-        "PackageCode" = "8:{88E9A062-38A0-4357-8375-9350D73A3CE7}"
+        "PackageCode" = "8:{3F8098B7-2BEE-4B1C-9DCB-1A41DDB87A6B}"
         "UpgradeCode" = "8:{77FE5ABB-AA89-4859-A631-037F3245BCE7}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -3912,21 +3949,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_13F4146ECDFC4BC1A414661E54D72101"
-            {
-            "Name" = "8:Shortcut to Primary output from LearningGame1 (Release Any CPU)"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_0F16B6CEF9124B778D4E805829E20123"
-            "Folder" = "8:_F839E00A817546539777B88D172E15E3"
-            "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1AA7606D05DF4FE18538D883CF755521"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_00D85D00C0C9436B8FF32D9D81415FE5"
             {
             "Name" = "8:Shortcut to Learning Game"
             "Arguments" = "8:"
@@ -3934,27 +3957,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_37A8F460E9104A9581EF8D4B4ADA08E4"
+            "Target" = "8:_05DF42F482CF432ABD2FD566E6592141"
             "Folder" = "8:_F839E00A817546539777B88D172E15E3"
             "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BE2B06DFEF89477FACE6E28B96158DDE"
-            {
-            "Name" = "8:Shortcut to Primary output from LearningGame1 (Release Any CPU)"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_0F16B6CEF9124B778D4E805829E20123"
-            "Folder" = "8:_CE51F18385A746139BBB051E33077433"
-            "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D9439270E4FD4F449910CF20889C815C"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A14187400EFE41CAA6CA974AE5EB0F01"
             {
             "Name" = "8:Shortcut to Learning Game"
             "Arguments" = "8:"
@@ -3962,7 +3971,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_37A8F460E9104A9581EF8D4B4ADA08E4"
+            "Target" = "8:_05DF42F482CF432ABD2FD566E6592141"
             "Folder" = "8:_CE51F18385A746139BBB051E33077433"
             "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
             "Icon" = "8:"
@@ -4367,35 +4376,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0F16B6CEF9124B778D4E805829E20123"
-            {
-            "SourcePath" = "8:..\\obj\\Release\\netcoreapp3.1\\LearningGame1.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{940B0858-9B10-4769-9D03-460910CAF1B1}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_37A8F460E9104A9581EF8D4B4ADA08E4"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_05DF42F482CF432ABD2FD566E6592141"
             {
             "SourcePath" = "8:..\\obj\\Release\\netcoreapp3.1\\apphost.exe"
             "TargetName" = "8:"
@@ -4423,7 +4404,35 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_43552971B7B44574BA732F20652AD04F"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5FD14DDE12FF4BD6AE0107EFB3233CE0"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:LocalizedResourceDlls"
+            "OutputProjectGuid" = "8:{940B0858-9B10-4769-9D03-460910CAF1B1}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_93C80425213642FFB16794C90FE4B47A"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -4451,9 +4460,9 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C763C92CAACB4454B4E108E3BA3A9036"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D4271CEBBE274A449D4A4E22BBEF5690"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\obj\\Release\\netcoreapp3.1\\LearningGame1.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
@@ -4472,14 +4481,14 @@
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:Release|Any CPU"
-            "OutputGroupCanonicalName" = "8:LocalizedResourceDlls"
+            "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{940B0858-9B10-4769-9D03-460910CAF1B1}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FE0C46D24C054E1B99D736A4EDACED82"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E0AAB1575C0E4C4691D1F2DB738EF25A"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"

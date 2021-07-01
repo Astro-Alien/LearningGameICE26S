@@ -29,6 +29,7 @@ namespace LearningGame1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LevelOptionsForm));
             this.label1 = new System.Windows.Forms.Label();
             this.alphabetLbl = new System.Windows.Forms.Label();
             this.numbLbl = new System.Windows.Forms.Label();
@@ -172,6 +173,7 @@ namespace LearningGame1
             this.Controls.Add(this.numbLbl);
             this.Controls.Add(this.alphabetLbl);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LevelOptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Level Option";
