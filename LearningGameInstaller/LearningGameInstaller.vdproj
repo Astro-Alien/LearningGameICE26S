@@ -13,6 +13,12 @@
 "SccProvider" = "8:"
     "Hierarchy"
     {
+        "Entry"
+        {
+        "MsmKey" = "8:_E7CB583BC78D4D108DEDCECE077DEED8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -287,15 +293,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B07C1A55EEE143EC802687D3BCC45C68"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C1564186D8F54941A09EB21A41900B9D"
             {
-            "Name" = "8:Shortcut to Publish Items from LearningGame1 (Release Any CPU)"
+            "Name" = "8:Shortcut to Publish Items from LearningGame1 (Debug Any CPU)"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:"
+            "Target" = "8:_E7CB583BC78D4D108DEDCECE077DEED8"
             "Folder" = "8:_F839E00A817546539777B88D172E15E3"
             "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
             "Icon" = "8:"
@@ -700,9 +706,37 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F9FF13E05BC24856B7C01F2F763AC0B9"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_27EE40E0623A4B2FBCBB67C93397A155"
             {
             "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:Debug|Any CPU"
+            "OutputGroupCanonicalName" = "8:ContentFiles"
+            "OutputProjectGuid" = "8:{940B0858-9B10-4769-9D03-460910CAF1B1}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E7CB583BC78D4D108DEDCECE077DEED8"
+            {
+            "SourcePath" = "8:..\\obj\\Debug\\netcoreapp3.1\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
