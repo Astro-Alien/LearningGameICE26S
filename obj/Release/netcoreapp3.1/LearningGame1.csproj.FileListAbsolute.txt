@@ -43,3 +43,4 @@ C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netc
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.dll
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.pdb
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.genruntimeconfig.cache
+C:\Users\joshu\source\repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Release\netcoreapp3.1\LearningGame1.csprojAssemblyReference.cache
