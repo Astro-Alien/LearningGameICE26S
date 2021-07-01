@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charles\\Downloads\\LearningGameICE26S\\LearningGame1.csproj": {}
+    "C:\\Users\\joshu\\Source\\Repos\\LearningGameICE26S-1(FINAL)\\LearningGame1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charles\\Downloads\\LearningGameICE26S\\LearningGame1.csproj": {
+    "C:\\Users\\joshu\\Source\\Repos\\LearningGameICE26S-1(FINAL)\\LearningGame1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charles\\Downloads\\LearningGameICE26S\\LearningGame1.csproj",
+        "projectUniqueName": "C:\\Users\\joshu\\Source\\Repos\\LearningGameICE26S-1(FINAL)\\LearningGame1.csproj",
         "projectName": "LearningGame1",
-        "projectPath": "C:\\Users\\Charles\\Downloads\\LearningGameICE26S\\LearningGame1.csproj",
-        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charles\\Downloads\\LearningGameICE26S\\obj\\",
+        "projectPath": "C:\\Users\\joshu\\Source\\Repos\\LearningGameICE26S-1(FINAL)\\LearningGame1.csproj",
+        "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joshu\\Source\\Repos\\LearningGameICE26S-1(FINAL)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
