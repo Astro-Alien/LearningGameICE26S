@@ -3829,7 +3829,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Learning Game"
         "ProductCode" = "8:{7EEE7F9D-4B45-4B4F-A7D2-E30974F40614}"
-        "PackageCode" = "8:{3F8098B7-2BEE-4B1C-9DCB-1A41DDB87A6B}"
+        "PackageCode" = "8:{30745BF8-E632-4556-B673-91649B59282F}"
         "UpgradeCode" = "8:{77FE5ABB-AA89-4859-A631-037F3245BCE7}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -3960,7 +3960,7 @@
             "Target" = "8:_05DF42F482CF432ABD2FD566E6592141"
             "Folder" = "8:_F839E00A817546539777B88D172E15E3"
             "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
-            "Icon" = "8:"
+            "Icon" = "8:_2F97A63D712744B18460C96472CB3A4E"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A14187400EFE41CAA6CA974AE5EB0F01"
@@ -3974,7 +3974,7 @@
             "Target" = "8:_05DF42F482CF432ABD2FD566E6592141"
             "Folder" = "8:_CE51F18385A746139BBB051E33077433"
             "WorkingFolder" = "8:_EE4FE55C52ED4DB9A9D2420F771DBD5E"
-            "Icon" = "8:"
+            "Icon" = "8:_2F97A63D712744B18460C96472CB3A4E"
             "Feature" = "8:"
             }
         }
