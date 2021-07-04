@@ -90,3 +90,26 @@ C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Debug\netcor
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Debug\netcoreapp3.1\LearningGame1.dll
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Debug\netcoreapp3.1\LearningGame1.pdb
 C:\Users\joshu\Source\Repos\LearningGameICE26S-1(FINAL UPDATES)\obj\Debug\netcoreapp3.1\LearningGame1.genruntimeconfig.cache
+C:\Users\Charles\Source\Repos\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.exe
+C:\Users\Charles\Source\Repos\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.deps.json
+C:\Users\Charles\Source\Repos\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.json
+C:\Users\Charles\Source\Repos\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.runtimeconfig.dev.json
+C:\Users\Charles\Source\Repos\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.dll
+C:\Users\Charles\Source\Repos\LearningGameICE26S\bin\Debug\netcoreapp3.1\LearningGame1.pdb
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csprojAssemblyReference.cache
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Alphabet.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Days.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.HelpForm.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.LevelOptionsForm.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Numbers.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.Splash.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.StartMenu.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.TestForm2.resources
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.GenerateResource.cache
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfoInputs.cache
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.AssemblyInfo.cs
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.csproj.CoreCompileInputs.cache
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.dll
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.pdb
+C:\Users\Charles\Source\Repos\LearningGameICE26S\obj\Debug\netcoreapp3.1\LearningGame1.genruntimeconfig.cache
